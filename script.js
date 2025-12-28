@@ -3,12 +3,14 @@ const dadosTreinos = {
     "titulo": "Membros Inferiores",
     "subtitulo": "Anterior / Quadríceps",
     "exercicios": [
-      { "nome": "Hack Squat (Máquina)", "execucao": "3 séries • 10 repetições", "peso": "30", "tec": "Carga progressiva", "obs": "Foco em descer o máximo possível com o calcanhar fixo." },
-      { "nome": "Leg Press 45°", "execucao": "3 séries • 12 repetições", "peso": "60", "tec": "Ênfase em carga", "obs": "Pés na parte baixa da plataforma para focar no quadríceps." },
+      { "nome": "Hack Squat (Máquina)", "execucao": "3 séries • 10 repetições", "peso": "30+", "tec": "Rest-Pause no final", "obs": "Após as 3 séries, descansar por 15s e fazer o máximo que conseguir." },
+      { "nome": "Leg Press 45°", "execucao": "3 séries • 12 repetições", "peso": "60", "tec": "Cadência 3-0-1", "obs": "Pés na parte baixa da plataforma para focar no quadríceps." },
       { "nome": "Cadeira Extensora Unilateral", "execucao": "3 séries • 12 reps cada", "peso": "17.5", "tec": "Unilateral", "obs": "Faça uma perna e depois a outra sem descanso." },
-      { "nome": "Mesa Flexora (Deitado)", "execucao": "3 séries • 15 repetições", "peso": "25", "tec": "Pico de contração", "obs": "Mantenha o quadril pressionado contra o banco." },
-      { "nome": "Panturrilha Sentado", "execucao": "3 séries • 15 repetições", "peso": "--", "tec": "PC", "obs": "Pico de contração de 2 segundos no topo." },
-      { "nome": "Abdominal Infra", "execucao": "3 séries • 15 repetições", "peso": "0", "tec": "Reta", "obs": "Controle a descida para não arquear a lombar." }
+      { "nome": "Cadeira Extensora Bilateral", "execucao": "1 série • 12 reps", "peso": "17.5+", "tec": "Drop-set", "obs": "Ao chegar à falha, reduza a carga em cerca de 30% e continue sem descanso até não conseguir fazer mais nenhuma repetição." },
+      { "nome": "Mesa Flexora (Deitado)", "execucao": "3 séries • 15 repetições", "peso": "25", "tec": "Pico de contração 2s", "obs": "Mantenha o quadril pressionado contra o banco." },
+      { "nome": "Panturrilha Sentado", "execucao": "3 séries • 15 repetições", "peso": "--", "tec": "PC", "obs": "Pico de contração de 2 segundos no topo. No final da última série, desça o calcanhar ao máximo e segure na posição de alongamento por 30 segundos sob carga." },
+      { "nome": "Abdominal Infra", "execucao": "3 séries • 15 repetições", "peso": "0", "tec": "Descida lenta 4s", "obs": "Controle a descida para não arquear a lombar." },
+      { "nome": "Caminhada leve", "execucao": "10 minutos", "peso": "--", "tec": "--", "obs": "Não faça cardio intenso. Apenas 10 minutos de caminhada leve para 'soltar' a musculatura." }
     ]
   },
   "treino_b": {
