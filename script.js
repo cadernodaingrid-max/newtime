@@ -3,15 +3,63 @@ const dadosTreinos = {
     "titulo": "Membros Inferiores",
     "subtitulo": "Anterior / Quadríceps",
     "exercicios": [
-      { "nome": "Hack Squat (Máquina)", "execucao": "3 séries • 10 repetições", "peso": "30+", "tec": "Rest-Pause no final", "obs": "Após as 3 séries, descansar por 15s e fazer o máximo que conseguir." },
-      { "nome": "Leg Press 45°", "execucao": "3 séries • 12 repetições", "peso": "60", "tec": "Cadência 3-0-1", "obs": "Pés na parte baixa da plataforma para focar no quadríceps." },
-      { "nome": "Cadeira Extensora Unilateral", "execucao": "3 séries • 12 reps cada", "peso": "17.5", "tec": "Unilateral", "obs": "Faça uma perna e depois a outra sem descanso." },
-      { "nome": "Cadeira Extensora Bilateral", "execucao": "1 série • 12 reps", "peso": "17.5+", "tec": "Drop-set", "obs": "Ao chegar à falha, reduza a carga em cerca de 30% e continue sem descanso até não conseguir fazer mais nenhuma repetição." },
-      { "nome": "Mesa Flexora (Deitado)", "execucao": "3 séries • 15 repetições", "peso": "25", "tec": "Pico de contração 2s", "obs": "Mantenha o quadril pressionado contra o banco." },
-      { "nome": "Panturrilha Sentado", "execucao": "3 séries • 15 repetições", "peso": "--", "tec": "PC", "obs": "Pico de contração de 2 segundos no topo. No final da última série, desça o calcanhar ao máximo e segure na posição de alongamento por 30 segundos sob carga." },
-      { "nome": "Abdominal Infra", "execucao": "3 séries • 15 repetições", "peso": "0", "tec": "Descida lenta 4s", "obs": "Controle a descida para não arquear a lombar." },
-      { "nome": "Caminhada leve", "execucao": "10 minutos", "peso": "--", "tec": "--", "obs": "Não faça cardio intenso. Apenas 10 minutos de caminhada leve para 'soltar' a musculatura." }
-    ]
+  { 
+    "nome": "Hack Squat (Máquina)", 
+    "execucao": "4 séries • 6 a 8 repetições", 
+    "peso": "40+ (Aumentar)", 
+    "tec": "Carga Progressiva", 
+    "obs": "Foco em força. Subir o peso a cada série. A última deve ser o seu limite para 6 reps." 
+  },
+  { 
+    "nome": "Leg Press 45°", 
+    "execucao": "4 séries • 8 repetições", 
+    "peso": "80+ (Aumentar)", 
+    "tec": "Pausa na Transição", 
+    "obs": "Pausa de 1s no ponto mais baixo (sem encostar o peso) antes de subir explosivo." 
+  },
+  { 
+    "nome": "Cadeira Extensora Unilateral", 
+    "execucao": "3 séries • 8 repetições", 
+    "peso": "22.5+ (Aumentar)", 
+    "tec": "Cadência 4-0-1", 
+    "obs": "Descer o peso em 4 segundos lentos. O foco é a tensão na fase negativa." 
+  },
+  { 
+    "nome": "Cadeira Extensora Bilateral", 
+    "execucao": "2 séries • 8 repetições", 
+    "peso": "30+ (Aumentar)", 
+    "tec": "Tensão Contínua", 
+    "obs": "Sem descanso de 'drop-set'. Carga máxima para 8 repetições sólidas." 
+  },
+  { 
+    "nome": "Mesa Flexora (Deitado)", 
+    "execucao": "3 séries • 8 repetições", 
+    "peso": "32.5+ (Aumentar)", 
+    "tec": "Carga Máxima", 
+    "obs": "Priorize o peso. Se o quadril sair do banco, reduza levemente." 
+  },
+  { 
+    "nome": "Panturrilha no Leg Press", 
+    "execucao": "4 séries • 8 repetições", 
+    "peso": "Carga Alta", 
+    "tec": "Explosão", 
+    "obs": "Troca temporária do 'Sentado' pelo 'Leg Press' para permitir maior uso de carga." 
+  },
+  { 
+    "nome": "Abdominal Infra", 
+    "execucao": "3 séries • 12 repetições", 
+    "peso": "Caneleira (Opcional)", 
+    "tec": "Sobrecarga", 
+    "obs": "Tente adicionar uma pequena carga (caneleira) para desafiar a força do core." 
+  },
+  { 
+    "nome": "Alongamento Estático", 
+    "execucao": "5 a 10 minutos", 
+    "peso": "--", 
+    "tec": "--", 
+    "obs": "Foco em relaxar a musculatura após o estresse de carga alta." 
+  }
+]
   },
   "treino_b": {
     "titulo": "Superior - Empurrar",
