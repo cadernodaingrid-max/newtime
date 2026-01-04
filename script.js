@@ -1,113 +1,54 @@
 const dadosTreinos = {
-  "treino_a": {
+ "treino_a": {
     "titulo": "Membros Inferiores",
-    "subtitulo": "Anterior / Quadríceps",
+    "subtitulo": "Anterior / Quadríceps (Foco em TMB)",
     "exercicios": [
-  { 
-    "nome": "Hack Squat (Máquina)", 
-    "execucao": "4 séries • 6 a 8 repetições", 
-    "peso": "40+ (Aumentar)", 
-    "tec": "Carga Progressiva", 
-    "obs": "Foco em força. Subir o peso a cada série. A última deve ser o seu limite para 6 reps." 
-  },
-  { 
-    "nome": "Leg Press 45°", 
-    "execucao": "4 séries • 8 repetições", 
-    "peso": "80+ (Aumentar)", 
-    "tec": "Pausa na Transição", 
-    "obs": "Pausa de 1s no ponto mais baixo (sem encostar o peso) antes de subir explosivo." 
-  },
-  { 
-    "nome": "Cadeira Extensora Unilateral", 
-    "execucao": "3 séries • 8 repetições", 
-    "peso": "22.5+ (Aumentar)", 
-    "tec": "Cadência 4-0-1", 
-    "obs": "Descer o peso em 4 segundos lentos. O foco é a tensão na fase negativa." 
-  },
-  { 
-    "nome": "Cadeira Extensora Bilateral", 
-    "execucao": "2 séries • 8 repetições", 
-    "peso": "30+ (Aumentar)", 
-    "tec": "Tensão Contínua", 
-    "obs": "Sem descanso de 'drop-set'. Carga máxima para 8 repetições sólidas." 
-  },
-  { 
-    "nome": "Mesa Flexora (Deitado)", 
-    "execucao": "3 séries • 8 repetições", 
-    "peso": "32.5+ (Aumentar)", 
-    "tec": "Carga Máxima", 
-    "obs": "Priorize o peso. Se o quadril sair do banco, reduza levemente." 
-  },
-  { 
-    "nome": "Panturrilha no Leg Press", 
-    "execucao": "4 séries • 8 repetições", 
-    "peso": "Carga Alta", 
-    "tec": "Explosão", 
-    "obs": "Troca temporária do 'Sentado' pelo 'Leg Press' para permitir maior uso de carga." 
-  },
-  { 
-    "nome": "Abdominal Infra", 
-    "execucao": "3 séries • 12 repetições", 
-    "peso": "Caneleira (Opcional)", 
-    "tec": "Sobrecarga", 
-    "obs": "Tente adicionar uma pequena carga (caneleira) para desafiar a força do core." 
-  },
-  { 
-    "nome": "Alongamento Estático", 
-    "execucao": "5 a 10 minutos", 
-    "peso": "--", 
-    "tec": "--", 
-    "obs": "Foco em relaxar a musculatura após o estresse de carga alta." 
-  }
-]
+      {"nome": "Hack Squat (Máquina)", "execucao": "4 séries • 6 a 8 repetições", "peso": "42.5+ (Subir 2.5kg)", "tec": "Carga Progressiva", "obs": "Descanso de 90s. O objetivo é sinalizar força para preservar músculo no déficit."},
+      {"nome": "Leg Press 45°","execucao": "4 séries • 8 repetições","peso": "85+ (Aumentar)","tec": "Pausa de 1s no Alongamento", "obs": "Pausa no ponto mais baixo para eliminar energia elástica e recrutar mais fibras."},
+      {"nome": "Cadeira Extensora (Unilateral + Bilateral)","execucao": "3 séries • 8 Unil. + 8 Bilat.","peso": "22.5 / 35","tec": "Jump-set","obs": "Faça unilateral e vá direto para a bilateral sem descanso. Foco em pump metabólico."},
+      {"nome": "Mesa Flexora","execucao": "3 séries • 8 repetições","peso": "35+ (Aumentar)","tec": "Excêntrica Lenta","obs": "Controle a descida em 3 segundos. Máxima carga possível."},
+      {"nome": "Panturrilha no Leg + Abdominal Infra","execucao": "4 séries • 10 + 15 repetições","peso": "Carga Máxima / Caneleira","tec": "Bi-set", "obs": "Sem descanso entre os dois para manter a frequência cardíaca elevada."}
+    ]
   },
   "treino_b": {
     "titulo": "Superior - Empurrar",
-    "subtitulo": "Peito, Ombro e Tríceps",
+    "subtitulo": "Peito, Ombro e Tríceps (Gasto Calórico)",
     "exercicios": [
-      { "nome": "Supino na Máquina", "execucao": "3 séries • 10 repetições", "peso": "--", "tec": "Máq. Articulado", "obs": "Carga que desafie as últimas repetições." },
-      { "nome": "Desenvolvimento Halteres", "execucao": "3 séries • 10 repetições", "peso": "7", "tec": "Reta", "obs": "Pegada Neutra." },
-      { "nome": "Tríceps Corda", "execucao": "3 séries • 12 repetições", "peso": "8", "tec": "PC", "obs": "Abra a corda no final para contrair ao máximo." },
-      { "nome": "Elevação Lateral (Cabo)", "execucao": "3 séries • 15 repetições", "peso": "--", "tec": "Tensão constante", "obs": "Cabo por trás do corpo para maior alongamento." },
-      { "nome": "Rosca Inversa (Polia)", "execucao": "3 séries • 15 repetições", "peso": "--", "tec": "Reta", "obs": "Foco na força de preensão e antebraço." },
-      { "nome": "Abdominal V-up", "execucao": "3 séries • 12 repetições", "peso": "0", "tec": "Reta", "obs": "Descida controlada." }
+      { "nome": "Supino na Máquina + V-up", "execucao": "3 séries • 10 + 12", "peso": "--", "tec": "Bi-set Agonista/Antagonista", "obs": "Abdômen ativo entre as séries de peito." },
+      { "nome": "Desenvolvimento Halteres", "execucao": "3 séries • 10-12", "peso": "8+ (Subir)", "tec": "Double Progression", "obs": "Se bater 12 reps com 8kg, na próxima semana use 9kg." },
+      { "nome": "Tríceps Corda + Elevação Lateral", "execucao": "3 séries • 12 + 15", "peso": "10 / 5", "tec": "Bi-set", "obs": "Descanso reduzido para 45 segundos para otimizar queima." },
+      { "nome": "Rosca Inversa (Polia)", "execucao": "3 séries • 15", "peso": "12.5", "tec": "Tensão Contínua", "obs": "Sem descanso no topo ou embaixo." }
     ]
   },
   "treino_c": {
     "titulo": "Membros Inferiores",
-    "subtitulo": "Posterior e Glúteo",
+    "subtitulo": "Posterior e Glúteo (Mobilização de Gordura)",
     "exercicios": [
-      { "nome": "Levantamento Terra (Barra/Halter)", "execucao": "3 séries • 10 repetições", "peso": "25", "tec": "Reta", "obs": "Empurrando o quadril para trás." },
-      { "nome": "Leg Press 45° (Pés Altos)", "execucao": "3 séries • 12 repetições", "peso": "40", "tec": "Carga progressiva", "obs": "Focar em glúteo." },
-      { "nome": "Cadeira Flexora", "execucao": "3 séries • 15 repetições", "peso": "27.5", "tec": "PC", "obs": "Pico de contração." },
-      { "nome": "Cadeira Abdutora", "execucao": "3 séries • 20 repetições", "peso": "40", "tec": "Amplitude", "obs": "Incline o tronco para frente." },
-      { "nome": "Extensão de Quadril 45°", "execucao": "3 séries • 12 repetições", "peso": "--", "tec": "Reta", "obs": "Força no glúteo para subir." },
-      { "nome": "Panturrilha no Leg Press", "execucao": "3 séries • 15 repetições", "peso": "50", "tec": "PC", "obs": "Ponta dos pés na borda." }
+      { "nome": "Levantamento Terra", "execucao": "3 séries • 10", "peso": "27.5+ (Subir)", "tec": "Progressão de Carga", "obs": "Principal exercício para gasto calórico sistêmico." },
+      { "nome": "Leg Press 45° (Pés Altos)", "execucao": "3 séries • 12", "peso": "45+", "tec": "Amplitude Máxima", "obs": "Foco em glúteo. Desça o máximo que a lombar permitir." },
+      { "nome": "Cadeira Flexora + Abdutora", "execucao": "3 séries • 15 + 20", "peso": "30 / 45", "tec": "Super-série", "obs": "Alto volume para melhorar a densidade muscular local." },
+      { "nome": "Extensão de Quadril 45°", "execucao": "3 séries • 12", "peso": "Halter 5kg", "tec": "Pico de Contração", "obs": "Segure 2s no topo contraindo o glúteo." }
     ]
   },
   "treino_d": {
     "titulo": "Superior - Puxar",
-    "subtitulo": "Costas e Bíceps",
+    "subtitulo": "Costas e Bíceps (Definição)",
     "exercicios": [
-      { "nome": "Puxada Alta (Triângulo)", "execucao": "3 séries • 10 repetições", "peso": "33", "tec": "3s na volta", "obs": "Puxe para o peito." },
-      { "nome": "Remada Cavalinho", "execucao": "3 séries • 10 repetições", "peso": "--", "tec": "PC Escapular", "obs": "Coluna neutra." },
-      { "nome": "Rosca Scott", "execucao": "3 séries • 12 repetições", "peso": "5", "tec": "Reta", "obs": "Alongue bem sem esticar totalmente." },
-      { "nome": "Rosca Martelo (Corda)", "execucao": "3 séries • 15 repetições", "peso": "--", "tec": "Reta", "obs": "Foco no braquiorradial." },
-      { "nome": "Tríceps Pulley Overhead", "execucao": "3 séries • 12 repetições", "peso": "6", "tec": "PC", "obs": "No ponto de maior extensão (braços esticados), afaste as mãos e segure por 1 segundo." },
-      { "nome": "Face Pulls (Cabo)", "execucao": "3 séries • 15 repetições", "peso": "7.5", "tec": "PC", "obs": "Focando no ombro posterior. Corda em direção à testa." },
-      { "nome": "Abdominal no Cabo", "execucao": "3 séries • 15 repetições", "peso": "--", "tec": "Carga Progressiva", "obs": "Crunch curvando a coluna." }
+      { "nome": "Puxada Alta Triângulo", "execucao": "3 séries • 10", "peso": "35+", "tec": "Negativa de 4s", "obs": "Segure o peso na volta para maximizar microlesões." },
+      { "nome": "Remada Cavalinho", "execucao": "3 séries • 10", "peso": "20+", "tec": "PC Escapular", "obs": "Esmague as costas no pico da contração." },
+      { "nome": "Rosca Scott + Rosca Martelo", "execucao": "3 séries • 12 + 12", "peso": "6 / 7", "tec": "Bi-set", "obs": "Foco em falha mecânica." },
+      { "nome": "Tríceps Overhead + Face Pulls", "execucao": "3 séries • 12 + 15", "peso": "7.5 / 10", "tec": "Bi-set", "obs": "Postura rigorosa." },
+      { "nome": "Abdominal no Cabo", "execucao": "3 séries • 15", "peso": "25+", "tec": "Carga Progressiva", "obs": "Trabalhe a força do reto abdominal." }
     ]
   },
   "treino_e": {
     "titulo": "Corpo Inteiro",
-    "subtitulo": "Metabólico e Variação",
+    "subtitulo": "Esvaziamento de Glicogênio (Metabólico)",
     "exercicios": [
-      { "nome": "Agachamento Búlgaro", "execucao": "3 séries • 10 reps cada", "peso": "--", "tec": "Cadência 3-1-1", "obs": "Desça em 3 segundos, faça uma pausa de 1 segundo lá embaixo (onde o glúteo mais alonga) e suba em 1 segundo." },
-      { "nome": "Cadeira Extensora", "execucao": "3 séries • 15 repetições", "peso": "--", "tec": "Cadência 3-0-3", "obs": "3s subir, 3s descer." },
-      { "nome": "Supino Inclinado (Halter)", "execucao": "3 séries • 12 repetições", "peso": "--", "tec": "Descida lenta", "obs": "Foco na parte superior do peito." },
-      { "nome": "Puxada Alta Supinada", "execucao": "3 séries • 12 repetições", "peso": "--", "tec": "PC", "obs": "Palmas viradas para você." },
-      { "nome": "Arnold Press", "execucao": "3 séries • 12 repetições", "peso": "--", "tec": "Rotação controlada", "obs": "Rode os halteres ao subir." },
-      { "nome": "Prancha Lateral", "execucao": "3 séries • 45 segundos", "peso": "0", "tec": "Isometria", "obs": "Estabilidade dos oblíquos." }
+      { "nome": "Agachamento Búlgaro", "execucao": "3 séries • 10 reps", "peso": "Halter 8kg", "tec": "Cadência 3-1-1", "obs": "Este exercício elevará muito seu gasto de oxigênio." },
+      { "nome": "Cadeira Extensora", "execucao": "3 séries • 15", "peso": "25", "tec": "Cadência 3-0-3", "obs": "Movimento constante e fluido." },
+      { "nome": "Circuito: Supino Inc + Puxada Supinada + Arnold", "execucao": "3 séries • 12 cada", "peso": "--", "tec": "Tri-set", "obs": "Faça os 3 sem descanso. Descanso de 60s apenas após o Arnold Press." },
+      { "nome": "Prancha Lateral", "execucao": "3 séries • 45s", "peso": "0", "tec": "Isometria", "obs": "Foco na estabilidade e afinamento da cintura." }
     ]
   }
 };
