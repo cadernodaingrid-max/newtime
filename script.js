@@ -26,7 +26,7 @@ const dadosTreinos = {
     "exercicios": [
       { "nome": "Levantamento Terra", "execucao": "3 séries • 10", "peso": "27.5+ (Subir)", "tec": "Progressão de Carga", "obs": "Principal exercício para gasto calórico sistêmico." },
       { "nome": "Leg Press 45° (Pés Altos)", "execucao": "3 séries • 12", "peso": "45+", "tec": "Amplitude Máxima", "obs": "Foco em glúteo. Desça o máximo que a lombar permitir." },
-      { "nome": "Cadeira Flexora + Abdutora", "execucao": "3 séries • 15 + 20", "peso": "30 / 45", "tec": "Super-série", "obs": "Alto volume para melhorar a densidade muscular local." },
+      { "nome": "Mesa Flexora + Abdutora", "execucao": "3 séries • 15 + 20", "peso": "--", "tec": "Super-série", "obs": "Descida da flexora deve ser lenta." },
       { "nome": "Extensão de Quadril 45°", "execucao": "3 séries • 12", "peso": "Halter 5kg", "tec": "Pico de Contração", "obs": "Segure 2s no topo contraindo o glúteo." }
     ]
   },
@@ -46,8 +46,9 @@ const dadosTreinos = {
     "subtitulo": "Esvaziamento de Glicogênio (Metabólico)",
     "exercicios": [
       { "nome": "Agachamento Búlgaro", "execucao": "3 séries • 10 reps", "peso": "Halter 8kg", "tec": "Cadência 3-1-1", "obs": "Este exercício elevará muito seu gasto de oxigênio." },
-      { "nome": "Cadeira Extensora", "execucao": "3 séries • 15", "peso": "25", "tec": "Cadência 3-0-3", "obs": "Movimento constante e fluido." },
-      { "nome": "Circuito: Supino Inc + Puxada Supinada + Arnold", "execucao": "3 séries • 12 cada", "peso": "--", "tec": "Tri-set", "obs": "Faça os 3 sem descanso. Descanso de 60s apenas após o Arnold Press." },
+      { "nome": "Cadeira Extensora", "execucao": "3 séries • 15 reps", "peso": "25", "tec": "Cadência 3-0-3", "obs": "Movimento constante e fluido." },
+      { "nome": "Supino Inclinado + Arnold", "execucao": "3 séries • 12 cada", "peso": "--", "tec": "Bi-set", "obs": "Faça os 2 sem descanso." },
+      { "nome": "Puxada Supinada", "execucao": "3 séries • 12 reps", "peso": "30+", "tec": "Pico de Contração", "obs": "Faça isolado para focar na carga máxima e expansão dorsal." },
       { "nome": "Prancha Lateral", "execucao": "3 séries • 45s", "peso": "0", "tec": "Isometria", "obs": "Foco na estabilidade e afinamento da cintura." }
     ]
   }
