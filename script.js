@@ -15,7 +15,7 @@ const dadosTreinos = {
     "subtitulo": "Peito, Ombro e Tríceps (Gasto Calórico)",
     "exercicios": [
       { "nome": "Supino na Máquina + V-up", "execucao": "3 séries • 10 + 12", "peso": "--", "tec": "Bi-set Agonista/Antagonista", "obs": "Abdômen ativo entre as séries de peito." },
-      { "nome": "Desenvolvimento Halteres", "execucao": "3 séries • 10-12", "peso": "8+ (Subir)", "tec": "Double Progression", "obs": "Se bater 12 reps com 8kg, na próxima semana use 9kg." },
+      { "nome": "Desenvolvimento Halteres", "execucao": "3 séries • 10-12", "peso": "8+ (Subir)", "tec": "Pegada Neutra", "obs": "Se bater 12 reps com 8kg, na próxima semana use 9kg." },
       { "nome": "Tríceps Corda + Elevação Lateral", "execucao": "3 séries • 12 + 15", "peso": "10 / 5", "tec": "Bi-set", "obs": "Descanso reduzido para 45 segundos para otimizar queima." },
       { "nome": "Rosca Inversa (Polia)", "execucao": "3 séries • 15", "peso": "12.5", "tec": "Tensão Contínua", "obs": "Sem descanso no topo ou embaixo." }
     ]
