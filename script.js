@@ -1,7 +1,7 @@
 const dadosTreinos = {
  "treino_a": {
     "titulo": "Membros Inferiores",
-    "subtitulo": "Anterior / Quadríceps (Foco em TMB)",
+    "subtitulo": "Anterior / Quadríceps",
     "exercicios": [
       {"nome": "Hack Squat (Máquina)", "execucao": "4 séries • 6 a 8 repetições", "peso": "42.5+ (Subir 2.5kg)", "tec": "Carga Progressiva", "obs": "Descanso de 90s. O objetivo é sinalizar força para preservar músculo no déficit."},
       {"nome": "Leg Press 45°","execucao": "4 séries • 8 repetições","peso": "85+ (Aumentar)","tec": "Pausa de 1s no Alongamento", "obs": "Pausa no ponto mais baixo para eliminar energia elástica e recrutar mais fibras."},
@@ -12,7 +12,7 @@ const dadosTreinos = {
   },
   "treino_b": {
     "titulo": "Superior - Empurrar",
-    "subtitulo": "Peito, Ombro e Tríceps (Gasto Calórico)",
+    "subtitulo": "Peito, Ombro e Tríceps",
     "exercicios": [
       { "nome": "Supino na Máquina + V-up", "execucao": "3 séries • 10 + 12", "peso": "--", "tec": "Bi-set Agonista/Antagonista", "obs": "Abdômen ativo entre as séries de peito." },
       { "nome": "Desenvolvimento Halteres", "execucao": "3 séries • 10-12", "peso": "8+ (Subir)", "tec": "Pegada Neutra", "obs": "Se bater 12 reps com 8kg, na próxima semana use 9kg." },
@@ -22,7 +22,7 @@ const dadosTreinos = {
   },
   "treino_c": {
     "titulo": "Membros Inferiores",
-    "subtitulo": "Posterior e Glúteo (Mobilização de Gordura)",
+    "subtitulo": "Posterior e Glúteo",
     "exercicios": [
       { "nome": "Levantamento Terra", "execucao": "3 séries • 10", "peso": "27.5+ (Subir)", "tec": "Progressão de Carga", "obs": "Principal exercício para gasto calórico sistêmico." },
       { "nome": "Leg Press 45° (Pés Altos)", "execucao": "3 séries • 12", "peso": "45+", "tec": "Amplitude Máxima", "obs": "Foco em glúteo. Desça o máximo que a lombar permitir." },
@@ -32,13 +32,13 @@ const dadosTreinos = {
   },
   "treino_d": {
     "titulo": "Superior - Puxar",
-    "subtitulo": "Costas e Bíceps (Definição)",
+    "subtitulo": "Costas e Bíceps",
     "exercicios": [
       { "nome": "Puxada Alta Triângulo", "execucao": "3 séries • 10", "peso": "35+", "tec": "Negativa de 4s", "obs": "Segure o peso na volta para maximizar microlesões." },
       { "nome": "Remada Cavalinho", "execucao": "3 séries • 10", "peso": "20+", "tec": "PC Escapular", "obs": "Esmague as costas no pico da contração." },
       { "nome": "Rosca Scott + Rosca Martelo", "execucao": "3 séries • 12 + 12", "peso": "6 / 7", "tec": "Bi-set", "obs": "Foco em falha mecânica." },
       { "nome": "Tríceps Overhead + Face Pulls", "execucao": "3 séries • 12 + 15", "peso": "7.5 / 10", "tec": "Bi-set", "obs": "Postura rigorosa." },
-      { "nome": "Abdominal no Cabo", "execucao": "3 séries • 15", "peso": "25+", "tec": "Carga Progressiva", "obs": "Trabalhe a força do reto abdominal." }
+      { "nome": "Abdominal Máquina", "execucao": "3 séries • 15", "peso": "25+", "tec": "Carga Progressiva", "obs": "Comece com um peso moderado e aumente se conseguir completar as 15 reps com facilidade." }
     ]
   },
   "treino_e": {
