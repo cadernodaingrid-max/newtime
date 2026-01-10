@@ -1,57 +1,58 @@
 const dadosTreinos = {
- "treino_a": {
+  "treino_a": {
     "titulo": "Membros Inferiores",
     "subtitulo": "Anterior / Quadríceps",
     "exercicios": [
-      {"nome": "Hack Squat (Máquina)", "execucao": "4 séries • 6 a 8 repetições", "peso": "42.5+ (Subir 2.5kg)", "tec": "Carga Progressiva", "obs": "Descanso de 90s. O objetivo é sinalizar força para preservar músculo no déficit."},
-      {"nome": "Leg Press 45°","execucao": "4 séries • 8 repetições","peso": "85+ (Aumentar)","tec": "Pausa de 1s no Alongamento", "obs": "Pausa no ponto mais baixo para eliminar energia elástica e recrutar mais fibras."},
-      {"nome": "Cadeira Extensora (Unilateral + Bilateral)","execucao": "3 séries • 8 Unil. + 8 Bilat.","peso": "22.5 / 35","tec": "Jump-set","obs": "Faça unilateral e vá direto para a bilateral sem descanso. Foco em pump metabólico."},
-      {"nome": "Mesa Flexora","execucao": "3 séries • 8 repetições","peso": "35+ (Aumentar)","tec": "Excêntrica Lenta","obs": "Controle a descida em 3 segundos. Máxima carga possível."},
-      {"nome": "Panturrilha no Leg + Abdominal Infra","execucao": "4 séries • 10 + 15 repetições","peso": "Carga Máxima / Caneleira","tec": "Bi-set", "obs": "Sem descanso entre os dois para manter a frequência cardíaca elevada."}
+      { "nome": "Hack Squat (Máquina)", "execucao": "4 séries • 6 a 8 repetições", "peso": "35kg", "tec": "Carga Progressiva", "obs": "Obrigatório. Foco em força e estabilidade." },
+      { "nome": "Leg Press 45°", "execucao": "4 séries • 8 repetições", "peso": "60kg", "tec": "Pausa de 1s no Alongamento", "obs": "Obrigatório. Pausa no ponto mais baixo." },
+      { "nome": "Cadeira Extensora (Unilateral + Bilateral)", "execucao": "3 séries • 8 Unil. + 8 Bilat.", "peso": "22.5 / 30", "tec": "Jump-set", "obs": "Obrigatório. Adicione Drop-set final na última série bilateral." },
+      { "nome": "Mesa Flexora", "execucao": "3 séries • 8 repetições", "peso": "35", "tec": "Excêntrica Lenta", "obs": "Não será feito. Foco de hoje é Quadríceps; posterior será na quinta-feira." },
+      { "nome": "Panturrilha no Leg + Abdominal Infra", "execucao": "4 séries • 10 + 15 repetições", "peso": "Máxima / Caneleira", "tec": "Bi-set", "obs": "Opcional. Realizar apenas se houver tempo." }
     ]
   },
   "treino_b": {
     "titulo": "Superior - Empurrar",
     "subtitulo": "Peito, Ombro e Tríceps",
     "exercicios": [
-      { "nome": "Supino na Máquina + V-up", "execucao": "3 séries • 10 + 12", "peso": "--", "tec": "Bi-set Agonista/Antagonista", "obs": "Abdômen ativo entre as séries de peito." },
-      { "nome": "Desenvolvimento Halteres", "execucao": "3 séries • 10-12", "peso": "8+ (Subir)", "tec": "Pegada Neutra", "obs": "Se bater 12 reps com 8kg, na próxima semana use 9kg." },
-      { "nome": "Tríceps Corda + Elevação Lateral", "execucao": "3 séries • 12 + 15", "peso": "10 / 5", "tec": "Bi-set", "obs": "Descanso reduzido para 45 segundos para otimizar queima." },
-      { "nome": "Rosca Inversa (Polia)", "execucao": "3 séries • 15", "peso": "12.5", "tec": "Tensão Contínua", "obs": "Sem descanso no topo ou embaixo." }
+      { "nome": "Supino na Máquina + V-up", "execucao": "3 séries • 10 + 12", "peso": "--", "tec": "Bi-set", "obs": "Obrigatório. Abdômen ativo entre as séries." },
+      { "nome": "Desenvolvimento Halteres", "execucao": "3 séries • 10-12", "peso": "8kg", "tec": "Pegada Neutra", "obs": "Obrigatório." },
+      { "nome": "Tríceps Corda + Elevação Lateral", "execucao": "3 séries • 12 + 15", "peso": "10 / 4", "tec": "Bi-set", "obs": "Obrigatório. Descanso reduzido." },
+      { "nome": "Rosca Inversa (Polia)", "execucao": "3 séries • 15", "peso": "10kg", "tec": "Tensão Contínua", "obs": "Opcional. Trabalho de antebraço." }
     ]
   },
   "treino_c": {
     "titulo": "Membros Inferiores",
     "subtitulo": "Posterior e Glúteo",
     "exercicios": [
-      { "nome": "Levantamento Terra", "execucao": "3 séries • 10", "peso": "27.5+ (Subir)", "tec": "Progressão de Carga", "obs": "Principal exercício para gasto calórico sistêmico." },
-      { "nome": "Leg Press 45° (Pés Altos)", "execucao": "3 séries • 12", "peso": "45+", "tec": "Amplitude Máxima", "obs": "Foco em glúteo. Desça o máximo que a lombar permitir." },
-      { "nome": "Mesa Flexora + Abdutora", "execucao": "3 séries • 15 + 20", "peso": "--", "tec": "Super-série", "obs": "Descida da flexora deve ser lenta." },
-      { "nome": "Extensão de Quadril 45°", "execucao": "3 séries • 12", "peso": "Halter 5kg", "tec": "Pico de Contração", "obs": "Segure 2s no topo contraindo o glúteo." }
+      { "nome": "Levantamento Terra", "execucao": "4 séries • 10", "peso": "27.5kg", "tec": "Progressão", "obs": "Obrigatório. Aumentado para 4 séries para maior gasto calórico." },
+      { "nome": "Leg Press 45° (Pés Altos)", "execucao": "3 séries • 12", "peso": "45kg", "tec": "Amplitude Máxima", "obs": "Obrigatório. Foco total em glúteo." },
+      { "nome": "Mesa Flexora + Abdutora", "execucao": "3 séries • 15 + 20", "peso": "30 / 40", "tec": "Super-série", "obs": "Obrigatório." },
+      { "nome": "Extensão de Quadril 45°", "execucao": "3 séries • 12", "peso": "5kg", "tec": "Pico de Contração", "obs": "Opcional." }
     ]
   },
   "treino_d": {
     "titulo": "Superior - Puxar",
     "subtitulo": "Costas e Bíceps",
     "exercicios": [
-      { "nome": "Puxada Alta Triângulo", "execucao": "3 séries • 10", "peso": "35+", "tec": "Negativa de 4s", "obs": "Segure o peso na volta para maximizar microlesões." },
-      { "nome": "Remada Cavalinho", "execucao": "3 séries • 10", "peso": "20+", "tec": "PC Escapular", "obs": "Esmague as costas no pico da contração." },
-      { "nome": "Rosca Scott + Rosca Martelo", "execucao": "3 séries • 12 + 12", "peso": "6 / 7", "tec": "Bi-set", "obs": "Foco em falha mecânica." },
-      { "nome": "Tríceps Overhead + Face Pulls", "execucao": "3 séries • 12 + 15", "peso": "7.5 / 10", "tec": "Bi-set", "obs": "Postura rigorosa." },
-      { "nome": "Abdominal Máquina", "execucao": "3 séries • 15", "peso": "25+", "tec": "Carga Progressiva", "obs": "Comece com um peso moderado e aumente se conseguir completar as 15 reps com facilidade." }
+      { "nome": "Puxada Alta Triângulo", "execucao": "3 séries • 10", "peso": "33kg", "tec": "Negativa de 4s", "obs": "Obrigatório. Peso validado no treino de 09/01." },
+      { "nome": "Remada Articulada (Máquina)", "execucao": "3 séries • 10", "peso": "20kg", "tec": "PC Escapular", "obs": "Obrigatório. Substituta da Cavalinho (Não será feita)." },
+      { "nome": "Rosca Scott + Rosca Martelo", "execucao": "3 séries • 12 + 12", "peso": "5 / 4", "tec": "Bi-set", "obs": "Obrigatório. Pesos validados no treino de 09/01." },
+      { "nome": "Tríceps Overhead + Face Pulls", "execucao": "3 séries • 12 + 15", "peso": "6.75 / 10", "tec": "Bi-set", "obs": "Opcional. Pesos validados no treino de 09/01." },
+      { "nome": "Abdominal Máquina", "execucao": "3 séries • 15", "peso": "25kg", "tec": "Carga Progressiva", "obs": "Obrigatório." }
     ]
   },
   "treino_e": {
     "titulo": "Corpo Inteiro",
-    "subtitulo": "Esvaziamento de Glicogênio (Metabólico)",
+    "subtitulo": "Esvaziamento de Glicogênio",
     "exercicios": [
-      { "nome": "Agachamento Búlgaro", "execucao": "3 séries • 10 reps", "peso": "Halter 8kg", "tec": "Cadência 3-1-1", "obs": "Este exercício elevará muito seu gasto de oxigênio." },
-      { "nome": "Cadeira Extensora", "execucao": "3 séries • 15 reps", "peso": "25", "tec": "Cadência 3-0-3", "obs": "Movimento constante e fluido." },
-      { "nome": "Supino Inclinado + Arnold", "execucao": "3 séries • 12 cada", "peso": "--", "tec": "Bi-set", "obs": "Faça os 2 sem descanso." },
-      { "nome": "Puxada Supinada", "execucao": "3 séries • 12 reps", "peso": "30+", "tec": "Pico de Contração", "obs": "Faça isolado para focar na carga máxima e expansão dorsal." },
-      { "nome": "Prancha Lateral", "execucao": "3 séries • 45s", "peso": "0", "tec": "Isometria", "obs": "Foco na estabilidade e afinamento da cintura." }
+      { "nome": "Agachamento Búlgaro", "execucao": "3 séries • 10", "peso": "8kg", "tec": "Cadência 3-1-1", "obs": "Obrigatório." },
+      { "nome": "Cadeira Extensora", "execucao": "3 séries • 15", "peso": "25kg", "tec": "Cadência 3-0-3", "obs": "Obrigatório." },
+      { "nome": "Supino Inclinado + Arnold", "execucao": "3 séries • 12 cada", "peso": "5", "tec": "Bi-set", "obs": "Obrigatório. Halteres de 5kg para manter volume." },
+      { "nome": "Puxada Supinada", "execucao": "3 séries • 12", "peso": "30kg", "tec": "Pico de Contração", "obs": "Obrigatório." },
+      { "nome": "Prancha Lateral", "execucao": "3 séries • 45s", "peso": "0", "tec": "Isometria", "obs": "Obrigatório." }
     ]
   }
+}
 };
 
 function carregarTreino() {
