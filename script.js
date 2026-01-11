@@ -52,7 +52,6 @@ const dadosTreinos = {
       { "nome": "Prancha Lateral", "execucao": "3 séries • 45s", "peso": "0", "tec": "Isometria", "obs": "Obrigatório." }
     ]
   }
-}
 };
 
 function carregarTreino() {
