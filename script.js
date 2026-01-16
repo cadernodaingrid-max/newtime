@@ -53,7 +53,8 @@ const dadosTreinos = {
       { "nome": "Puxada Supinada", "execucao": "3 séries • 12 reps", "peso": "26", "tec": "Série Simples", "obs": "Foco no latíssimo do dorso." },
       { "nome": "Supino Inclinado (Halteres)", "execucao": "3 séries • 12 reps", "peso": "7", "tec": "Série Simples", "obs": "Banco a 45°. Máxima amplitude." },
       { "nome": "Desenvolvimento Arnold", "execucao": "3 séries • 10 reps", "peso": "6", "tec": "Tempo de Tensão", "obs": "Ajustar banco para 75-80°. Cuidado com a lombar no giro." },
-      { "nome": "Prancha Lateral", "execucao": "3 séries • 45 seg", "peso": "Corpo", "tec": "Isometria", "obs": "Estabilização do core." }
+      { "nome": "Prancha Lateral", "execucao": "3 séries • 45 seg", "peso": "Corpo", "tec": "Isometria", "obs": "Estabilização do core." },
+      { "nome": "CARDIO - Esteira", "execucao": "20 min", "peso": " ", "tec": "Inclinação 5 vel 5", "obs": " " }
     ]
   }
 };
