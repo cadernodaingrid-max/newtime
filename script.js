@@ -25,9 +25,10 @@ const dadosTreinos = {
     "titulo": "Membros Inferiores",
     "subtitulo": "Posterior e Glúteo",
     "exercicios": [
-      { "nome": "Levantamento Terra", "execucao": "4 séries • 10 reps", "peso": "27.5kg", "tec": "Cadência Controlada", "obs": "Foco em manter a coluna neutra e quadril encaixado." },
-      { "nome": "Leg Press 45° (Pés Altos)", "execucao": "3 séries • 12 reps", "peso": "45kg", "tec": "Amplitude Máxima", "obs": "Se lotado: Elevação Pélvica ou Sumô (14kg). Empurrar pelo calcanhar." },
-      { "nome": "Mesa Flexora + Cadeira Abdutora", "execucao": "3 séries • 15 + 20 reps", "peso": "30 / 40", "tec": "Super-série", "obs": "Esmagar a contração no pico do movimento." },
+      { "nome": "Stiff com halteres", "execucao": "3 séries • 12 reps", "peso": "10", "tec": "Cadência Controlada", "obs": "Foco em manter a coluna neutra e quadril encaixado." },
+      { "nome": "Leg Press 45° (Pés Altos)", "execucao": "3 séries • 12 reps", "peso": "20/20", "tec": "Amplitude Máxima", "obs": "Se lotado: Elevação Pélvica ou Sumô (14kg). Empurrar pelo calcanhar." },
+      { "nome": "Cadeira Flexora", "execucao": "3 séries • 15 reps", "peso": "25", "tec": "Série Reta", "obs": " " },
+      { "nome": "Cadeira Abdutora", "execucao": "3 séries • 20 reps", "peso": "40", "tec": "Pico de Contração", "obs": "Tente segurar 1 segundo na abertura máxima" },
       { "nome": "Extensão de Quadril 45°", "execucao": "3 séries • 15 reps", "peso": "Sem Peso", "tec": "Isometria no topo", "obs": "Lombar neutra e estável. Foco total no glúteo." },
       { "nome": "CARDIO - Esteira", "execucao": "20 min", "peso": " ", "tec": "Leve (recuperação)", "obs": " " }
     ]
