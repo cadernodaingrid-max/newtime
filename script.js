@@ -3,11 +3,12 @@ const dadosTreinos = {
     "titulo": "Membros Inferiores",
     "subtitulo": "Anterior / Quadríceps",
     "exercicios": [
-      { "nome": "Hack Squat (Máquina)", "execucao": "4 séries • 6 a 8 reps", "peso": "35", "tec": "CARGA PROGRESSIVA", "obs": "Foco em força e estabilidade." },
-      { "nome": "Leg Press 45°", "execucao": "4 séries • 8 reps", "peso": "60", "tec": "Pausa de 1s no ponto mais baixo.", "obs": "Se lotado: Leg Horizontal (55kg) ou Smith." },
-      { "nome": "Cadeira Extensora (Unilateral + Bilateral)", "execucao": "3 séries • 8 + 8 reps", "peso": "20 / 27.5", "tec": "Jump-set", "obs": "Adicione DROP-SET final na última série bilateral." },
-      { "nome": "Panturrilha no Leg + Abdominal Infra", "execucao": "4 séries • 10 + 15 reps", "peso": "2kg calcanhar", "tec": "Bi-set", "obs": " " },
-      { "nome": "CARDIO - Esteira", "execucao": "20 min", "peso": " ", "tec": "Inclinação 5 velocidade 5", "obs": " " }
+      { "nome": "Hack Squat (Máquina)", "execucao": "3 séries • 10 reps", "peso": "20", "tec": "Recuperação", "obs": "redução de 30-40% da carga." },
+      { "nome": "Leg Press 45°", "execucao": "3 séries • 12 reps", "peso": "60", "tec": "Recuperação", "obs": "Se lotado: Leg Horizontal (40kg) ou Smith." },
+      { "nome": "Cadeira Extensora (Bilateral)", "execucao": "3 séries • 12 reps", "peso": "25", "tec": "Recuperação", "obs": " " },
+      { "nome": "Panturrilha em pé", "execucao": "3 séries • 15 reps", "peso": " ", "tec": "Recuperação", "obs": " " },
+      { "nome": "Abdominal infra", "execucao": "3 séries • 12 reps", "peso": " ", "tec": "Recuperação", "obs": " " },
+      { "nome": "CARDIO - Bicicleta horizontal", "execucao": "15 min", "peso": " ", "tec": "Recuperação", "obs": " " }
     ]
   },
   "treino_b": {
