@@ -3,59 +3,62 @@ const dadosTreinos = {
     "titulo": "Membros Inferiores",
     "subtitulo": "Anterior / Quadríceps",
     "exercicios": [
-      { "nome": "Hack Squat (Máquina)", "execucao": "3 séries • 10 reps", "peso": "20", "tec": "Recuperação", "obs": "redução de 30-40% da carga." },
-      { "nome": "Leg Press 45°", "execucao": "3 séries • 12 reps", "peso": "60", "tec": "Recuperação", "obs": "Se lotado: Leg Horizontal (40kg) ou Smith." },
-      { "nome": "Cadeira Extensora (Bilateral)", "execucao": "3 séries • 12 reps", "peso": "25", "tec": "Recuperação", "obs": " " },
-      { "nome": "Panturrilha em pé", "execucao": "3 séries • 15 reps", "peso": " ", "tec": "Recuperação", "obs": " " },
-      { "nome": "Abdominal infra", "execucao": "3 séries • 12 reps", "peso": " ", "tec": "Recuperação", "obs": " " },
-      { "nome": "CARDIO - Bicicleta horizontal", "execucao": "15 min", "peso": " ", "tec": "Recuperação", "obs": " " }
+      {"nome": "Hack Squat (Máquina)", "execucao": "3 séries • 10 reps", "peso": "20", "tec": "Recuperação", "obs": "redução de 30-40% da carga." },
+      {"nome": "Leg Press 45°", "execucao": "3 séries • 12 reps", "peso": "60", "tec": "Recuperação", "obs": "Se lotado: Leg Horizontal (40kg) ou Smith." },
+      {"nome": "Cadeira Extensora (Bilateral)", "execucao": "3 séries • 12 reps", "peso": "25", "tec": "Recuperação", "obs": " " },
+      {"nome": "Panturrilha em pé", "execucao": "3 séries • 15 reps", "peso": " ", "tec": "Recuperação", "obs": " " },
+      {"nome": "Abdominal infra", "execucao": "3 séries • 12 reps", "peso": " ", "tec": "Recuperação", "obs": " " },
+      {"nome": "CARDIO - Bicicleta horizontal", "execucao": "15 min", "peso": " ", "tec": "Recuperação", "obs": " " }
     ]
   },
   "treino_b": {
-    "titulo": "Superior - Empurrar",
-    "subtitulo": "Peito, Ombro e Tríceps",
+    "titulo": "Membros Superiores",
+    "subtitulo": "Completo / Adaptação",
     "exercicios": [
-      { "nome": "Supino Máquina + V-up", "execucao": "3 séries • 10 + 15 reps", "peso": "9", "tec": "Bi-set", "obs": "Foco na contração do peitoral e estabilidade do core." },
-      { "nome": "Desenvolvimento Halteres", "execucao": "3 séries • 10 a 12 reps", "peso": "(Meta) 8", "tec": "Progressão", "obs": "Tentar iniciar com 8kg para sinalizar ganho de força." },
-      { "nome": "Tríceps Corda + Elevação Lateral", "execucao": "3 séries • 12 + 15 reps", "peso": "10 / 4", "tec": "Bi-set", "obs": "Lateral com foco no deltoide e preservação articular." },
-      { "nome": "Rosca Inversa", "execucao": "3 séries • 15 reps", "peso": "10kg", "tec": "Série Simples", "obs": "Trabalho de antebraço e braquial." },
-      { "nome": "CARDIO - Eliptico ou Bike", "execucao": "15 min", "peso": " ", "tec": "HIIT", "obs": " " }
+      {"nome": "Puxada Aberta (Pulley)", "execucao": "3 séries • 12 reps", "peso": "Ajustar", "tec": "Recuperação", "obs": "Focar na descida das escápulas"},
+      {"nome": "Supino Vertical (Máquina)", "execucao": "3 séries • 12 reps", "peso": "Ajustar", "tec": "Recuperação", "obs": "Evitar prender a respiração (pressão intra-abdominal)"},
+      {"nome": "Remada Baixa (Triângulo)", "execucao": "3 séries • 12 reps", "peso": "Ajustar", "tec": "Recuperação", "obs": "Manter postura ereta"},
+      {"nome": "Desenvolvimento com Halteres (Sentado)", "execucao": "2 séries • 10 reps", "peso": "Ajustar", "tec": "Recuperação", "obs": "Proteção de ombro e lombar"},
+      {"nome": "Bíceps Rosca com Halteres", "execucao": "2 séries • 12 reps", "peso": "Ajustar", "tec": "Recuperação", "obs": "Movimento controlado"},
+      {"nome": "Tríceps Pulley (Corda)", "execucao": "2 séries • 12 reps", "peso": "Ajustar", "tec": "Recuperação", "obs": "Extensão máxima"},
+      {"nome": "Prancha Isométrica", "execucao": "2 séries • 30 seg", "peso": "Peso do corpo", "tec": "Recuperação", "obs": "Substituição ao infra para evitar desconforto gástrico"},
+      {"nome": "CARDIO - Esteira", "execucao": "25-30 min", "peso": " ", "tec": "Moderado", "obs": "Ajuda na motilidade intestinal"}
     ]
-  },
+},
   "treino_c": {
     "titulo": "Membros Inferiores",
     "subtitulo": "Posterior e Glúteo",
     "exercicios": [
-      { "nome": "Stiff com halteres", "execucao": "3 séries • 12 reps", "peso": "10", "tec": "Cadência Controlada", "obs": "Foco em manter a coluna neutra e quadril encaixado." },
-      { "nome": "Leg Press 45° (Pés Altos)", "execucao": "3 séries • 12 reps", "peso": "20/20", "tec": "Amplitude Máxima", "obs": "Se lotado: Elevação Pélvica ou Sumô (14kg). Empurrar pelo calcanhar." },
-      { "nome": "Cadeira Flexora", "execucao": "3 séries • 15 reps", "peso": "25", "tec": "Série Reta", "obs": " " },
-      { "nome": "Cadeira Abdutora", "execucao": "3 séries • 20 reps", "peso": "40", "tec": "Pico de Contração", "obs": "Tente segurar 1 segundo na abertura máxima" },
-      { "nome": "Extensão de Quadril 45°", "execucao": "3 séries • 15 reps", "peso": "Sem Peso", "tec": "Isometria no topo", "obs": "Lombar neutra e estável. Foco total no glúteo." },
-      { "nome": "CARDIO - Esteira", "execucao": "20 min", "peso": " ", "tec": "Leve (recuperação)", "obs": " " }
+      {"nome": "Stiff com halteres", "execucao": "3 séries • 12 reps", "peso": "10", "tec": "Cadência Controlada", "obs": "Foco em manter a coluna neutra e quadril encaixado." },
+      {"nome": "Leg Press 45° (Pés Altos)", "execucao": "3 séries • 12 reps", "peso": "20/20", "tec": "Amplitude Máxima", "obs": "Se lotado: Elevação Pélvica ou Sumô (14kg). Empurrar pelo calcanhar." },
+      {"nome": "Cadeira Flexora", "execucao": "3 séries • 15 reps", "peso": "25", "tec": "Série Reta", "obs": " " },
+      {"nome": "Cadeira Abdutora", "execucao": "3 séries • 20 reps", "peso": "40", "tec": "Pico de Contração", "obs": "Tente segurar 1 segundo na abertura máxima" },
+      {"nome": "Extensão de Quadril 45°", "execucao": "3 séries • 15 reps", "peso": "Sem Peso", "tec": "Isometria no topo", "obs": "Lombar neutra e estável. Foco total no glúteo." },
+      {"nome": "CARDIO - Esteira", "execucao": "20 min", "peso": " ", "tec": "Leve (recuperação)", "obs": " "}
     ]
   },
   "treino_d": {
     "titulo": "Superior - Puxar",
     "subtitulo": "Costas e Bíceps",
     "exercicios": [
-      { "nome": "Puxada Alta Triângulo", "execucao": "3 séries • 10 reps", "peso": "26kg", "tec": "Recuperação", "obs": "Foco apenas em sentir o músculo das costas trabalhar" },
-      { "nome": "Remada Articulada", "execucao": "2 séries • 12 reps", "peso": "15kg", "tec": "Recuperação", "obs": " ." },
-      { "nome": "Rosca Martelo", "execucao": "2 séries • 10 reps", "peso": "2 / 3", "tec": "Recuperação", "obs": "Apenas para movimentar a articulação" },
-      { "nome": "Face Pulls", "execucao": "2 séries • 15 reps", "peso": "5", "tec": "Recuperação", "obs": "Melhora da postura e mobilidade de ombro." },
-      { "nome": "CARDIO - Bicicleta Horizontal", "execucao": "15 min", "peso": " ", "tec": " ", "obs": " " }
+      {"nome": "Puxada Alta Triângulo", "execucao": "3 séries • 10 reps", "peso": "26kg", "tec": "Recuperação", "obs": "Foco apenas em sentir o músculo das costas trabalhar" },
+      {"nome": "Remada Articulada", "execucao": "2 séries • 12 reps", "peso": "15kg", "tec": "Recuperação", "obs": " ." },
+      {"nome": "Rosca Martelo", "execucao": "2 séries • 10 reps", "peso": "2 / 3", "tec": "Recuperação", "obs": "Apenas para movimentar a articulação" },
+      {"nome": "Face Pulls", "execucao": "2 séries • 15 reps", "peso": "5", "tec": "Recuperação", "obs": "Melhora da postura e mobilidade de ombro." },
+      {"nome": "CARDIO - Bicicleta Horizontal", "execucao": "15 min", "peso": " ", "tec": " ", "obs": " " }
     ]
   },
   "treino_e": {
     "titulo": "Corpo Inteiro",
     "subtitulo": "Esvaziamento",
     "exercicios": [
-      { "nome": "Agachamento Búlgaro", "execucao": "3 séries • 10 reps", "peso": "8", "tec": "Unilateral", "obs": "Fazer um lado e depois o outro sem intervalo." },
-      { "nome": "Cadeira Extensora", "execucao": "3 séries • 15 reps", "peso": "25", "tec": "Cadência 3-0-3", "obs": "Foco no controle; sem impacto." },
-      { "nome": "Puxada Supinada", "execucao": "3 séries • 12 reps", "peso": "26", "tec": "Série Simples", "obs": "Foco no latíssimo do dorso." },
-      { "nome": "Supino Inclinado (Halteres)", "execucao": "3 séries • 12 reps", "peso": "7", "tec": "Série Simples", "obs": "Banco a 45°. Máxima amplitude." },
-      { "nome": "Desenvolvimento Arnold", "execucao": "3 séries • 10 reps", "peso": "6", "tec": "Tempo de Tensão", "obs": "Ajustar banco para 75-80°. Cuidado com a lombar no giro." },
-      { "nome": "Prancha Lateral", "execucao": "3 séries • 45 seg", "peso": "Corpo", "tec": "Isometria", "obs": "Estabilização do core." },
-      { "nome": "CARDIO - Esteira", "execucao": "20 min", "peso": " ", "tec": "Inclinação 5 vel 5", "obs": " " }
+      {"nome": "Agachamento Búlgaro", "execucao": "3 séries • 10 reps", "peso": "8", "tec": "Unilateral", "obs": "Fazer um lado e depois o outro sem intervalo." },
+      {"nome": "Cadeira Extensora", "execucao": "3 séries • 15 reps", "peso": "25", "tec": "Cadência 3-0-3", "obs": "Foco no controle; sem impacto." },
+      {"nome": "Puxada Supinada", "execucao": "3 séries • 12 reps", "peso": "26", "tec": "Série Simples", "obs": "Foco no latíssimo do dorso." },
+      {"nome": "Supino Inclinado (Halteres)", "execucao": "3 séries • 12 reps", "peso": "7", "tec": "Série Simples", "obs": "Banco a 45°. Máxima amplitude." },
+      {"nome": "Desenvolvimento Arnold", "execucao": "3 séries • 10 reps", "peso": "6", "tec": "Tempo de Tensão", "obs": "Ajustar banco para 75-80°. Cuidado com a lombar no giro." },
+      {"nome": "Prancha Lateral", "execucao": "3 séries • 45 seg", "peso": "Corpo", "tec": "Isometria", "obs": "Estabilização do core." },
+      {"nome": "CARDIO - Esteira", "execucao": "20 min", "peso": " ", "tec": "Inclinação 5 vel 5", "obs": " " }
     ]
   }
 };
