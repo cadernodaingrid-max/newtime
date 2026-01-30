@@ -38,12 +38,11 @@ const dadosTreinos = {
     "titulo": "Superior - Puxar",
     "subtitulo": "Costas e Bíceps",
     "exercicios": [
-      { "nome": "Puxada Alta Triângulo", "execucao": "3 séries • 10 reps", "peso": "33kg", "tec": "Negativa de 4s", "obs": "Controlar a subida da barra ao máximo." },
-      { "nome": "Remada Articulada", "execucao": "3 séries • 10 reps", "peso": "25kg", "tec": "Pico de Contração", "obs": "Esmagar as escápulas por 2 segundos atrás." },
-      { "nome": "Rosca na Máquina + Rosca Martelo", "execucao": "3 séries • 12 + 12 reps", "peso": "5 / 4", "tec": "Bi-set", "obs": "Sem descanso entre os exercícios de bíceps." },
-      { "nome": "Tríceps Overhead + Face Pulls", "execucao": "3 séries • 12 + 15 reps", "peso": "6.75 / 10", "tec": "Bi-set", "obs": "Melhora da postura e mobilidade de ombro." },
-      { "nome": "Abdominal Infra (Cadeira Capitão)", "execucao": "3 séries • 12 a 15 reps", "peso": "Corpo", "tec": "Série Simples", "obs": "Evitar balanço; foco no reto abdominal inferior." },
-      { "nome": "CARDIO", "execucao": "15 min", "peso": " ", "tec": "HIIT", "obs": " " }
+      { "nome": "Puxada Alta Triângulo", "execucao": "3 séries • 10 reps", "peso": "26kg", "tec": "Recuperação", "obs": "Foco apenas em sentir o músculo das costas trabalhar" },
+      { "nome": "Remada Articulada", "execucao": "2 séries • 12 reps", "peso": "15kg", "tec": "Recuperação", "obs": " ." },
+      { "nome": "Rosca Martelo", "execucao": "2 séries • 10 reps", "peso": "2 / 3", "tec": "Recuperação", "obs": "Apenas para movimentar a articulação" },
+      { "nome": "Face Pulls", "execucao": "2 séries • 15 reps", "peso": "5", "tec": "Recuperação", "obs": "Melhora da postura e mobilidade de ombro." },
+      { "nome": "CARDIO - Bicicleta Horizontal", "execucao": "15 min", "peso": " ", "tec": " ", "obs": " " }
     ]
   },
   "treino_e": {
