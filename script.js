@@ -1,64 +1,64 @@
 const dadosTreinos = {
   "treino_a": {
-    "titulo": "Membros Inferiores",
-    "subtitulo": "Anterior / Quadríceps",
+    "titulo": "Membros Superioes",
+    "subtitulo": "Conjugado",
     "exercicios": [
-      {"nome": "Hack Squat (Máquina)", "execucao": "3 séries • 10 reps", "peso": "20", "tec": "Recuperação", "obs": "redução de 30-40% da carga." },
-      {"nome": "Leg Press 45°", "execucao": "3 séries • 12 reps", "peso": "60", "tec": "Recuperação", "obs": "Se lotado: Leg Horizontal (40kg) ou Smith." },
-      {"nome": "Cadeira Extensora (Bilateral)", "execucao": "3 séries • 12 reps", "peso": "25", "tec": "Recuperação", "obs": " " },
-      {"nome": "Panturrilha em pé", "execucao": "3 séries • 15 reps", "peso": " ", "tec": "Recuperação", "obs": " " },
-      {"nome": "Abdominal infra", "execucao": "3 séries • 12 reps", "peso": " ", "tec": "Recuperação", "obs": " " },
-      {"nome": "CARDIO - Bicicleta horizontal", "execucao": "15 min", "peso": " ", "tec": "Recuperação", "obs": " " }
+      {"nome": "Supino Reto", "execucao": "4 séries • 8/12 reps", "peso": "12.5/20", "tec": "PC/CC", "obs": "Pirâmide Crescente (aumente o peso a cada série). | Cadência controlada (3 seg. na descida)." },
+      {"nome": "Remada Curvada ou Baixa", "execucao": "4 séries • 8/12 reps", "peso": "15/20", "tec": "RP", "obs": "Rest-Pause na última série (faça 6 reps, descanse 15s, faça o máximo que aguentar) | __" },
+      {"nome": "Desenvolvimento (Ombros)", "execucao": "3 séries • 10/12 reps", "peso": "5/7", "tec": "Bi-set", "obs": "Fazer 30s de polichinelos" },
+      {"nome": "Puxada Alta (Lat Pulldown)", "execucao": "3 séries • 10/12 reps", "peso": "19/33", "tec": "CM/DS", "obs": "Foco na contração máxima das costas. | Drop-set na última série (reduz o peso em 30% e faz até a falha)" },
+      {"nome": "Rosca Direta + Tríceps Corda", "execucao": "3 séries • 10/15 reps", "peso": "5/5", "tec": "Super-Série", "obs": "Um exercício seguido do outro sem descanso." },
+      {"nome": "Prancha Abdominal", "execucao": "3 séries • 1 min", "peso": " ", "tec": " ", "obs": " " }
     ]
   },
   "treino_b": {
-    "titulo": "Membros Superiores",
-    "subtitulo": "Completo / Adaptação",
+    "titulo": "Membros Inferioes",
+    "subtitulo": "++Core",
     "exercicios": [
-      {"nome": "Puxada Aberta (Pulley)", "execucao": "3 séries • 12 reps", "peso": "Ajustar", "tec": "Recuperação", "obs": "Focar na descida das escápulas"},
-      {"nome": "Supino Vertical (Máquina)", "execucao": "3 séries • 12 reps", "peso": "Ajustar", "tec": "Recuperação", "obs": "Evitar prender a respiração (pressão intra-abdominal)"},
-      {"nome": "Remada Baixa (Triângulo)", "execucao": "3 séries • 12 reps", "peso": "Ajustar", "tec": "Recuperação", "obs": "Manter postura ereta"},
-      {"nome": "Desenvolvimento com Halteres (Sentado)", "execucao": "2 séries • 10 reps", "peso": "Ajustar", "tec": "Recuperação", "obs": "Proteção de ombro e lombar"},
-      {"nome": "Bíceps Rosca com Halteres", "execucao": "2 séries • 12 reps", "peso": "Ajustar", "tec": "Recuperação", "obs": "Movimento controlado"},
-      {"nome": "Tríceps Pulley (Corda)", "execucao": "2 séries • 12 reps", "peso": "Ajustar", "tec": "Recuperação", "obs": "Extensão máxima"},
-      {"nome": "Prancha Isométrica", "execucao": "2 séries • 30 seg", "peso": "Peso do corpo", "tec": "Recuperação", "obs": "Substituição ao infra para evitar desconforto gástrico"},
-      {"nome": "CARDIO - Esteira", "execucao": "25-30 min", "peso": " ", "tec": "Moderado", "obs": "Ajuda na motilidade intestinal"}
+      {"nome": "Agachamento no Smith", "execucao": "4 séries • 12 reps", "peso": "Ajustar", "tec": "Progressiva", "obs": "Começa com pouco peso para aquecer as articulações e aumenta gradualmente."},
+      {"nome": "Leg Press 45°", "execucao": "3 séries • 12 reps", "peso": "Ajustar", "tec": "Drop-set", "obs": "Na última série: Faz 12 repetições, reduz o peso em 30% e faz mais 10 sem descanso."},
+      {"nome": "Cadeira Extensora", "execucao": "3 séries • 15 reps", "peso": "Ajustar", "tec": "Isometria", "obs": "Segurar 2 segundos no topo (contração máxima) em cada repetição para fortalecer o joelho"},
+      {"nome": "Cadeira Flexora", "execucao": "3 séries • 12 reps", "peso": "Ajustar", "tec": "Cadência 3-3", "obs": "3 segundos para subir, 3 segundos para descer"},
+      {"nome": "Leg Press Horizontal", "execucao": "3 séries • 15 reps", "peso": "Ajustar", "tec": "PC", "obs": "Pico de contração (segura 2s com a perna estendida – sem travar o joelho)."},
+      {"nome": "Stiff (Halteres ou Barra)", "execucao": "3 séries • 12 reps", "peso": "Ajustar", "tec": "PC", "obs": "No ponto mais alto (quase em pé, mas com uma leve inclinação ainda), espremer o glúteo com força por 2 segundos antes de descer novamente"},
+      {"nome": "Elevação de Joelhos (L-sit)", "execucao": "3 séries • 15 reps", "peso": "Peso do corpo", "tec": " ", "obs": " "}
     ]
 },
   "treino_c": {
-    "titulo": "Membros Inferiores",
-    "subtitulo": "Posterior e Glúteo",
+    "titulo": "Full Body",
+    "subtitulo": "Conjugado",
     "exercicios": [
-      {"nome": "Stiff com halteres", "execucao": "3 séries • 12 reps", "peso": "10", "tec": "Cadência Controlada", "obs": "Foco em manter a coluna neutra e quadril encaixado." },
-      {"nome": "Leg Press 45° (Pés Altos)", "execucao": "3 séries • 12 reps", "peso": "20/20", "tec": "Amplitude Máxima", "obs": "Se lotado: Elevação Pélvica ou Sumô (14kg). Empurrar pelo calcanhar." },
-      {"nome": "Cadeira Flexora", "execucao": "3 séries • 15 reps", "peso": "25", "tec": "Série Reta", "obs": " " },
-      {"nome": "Cadeira Abdutora", "execucao": "3 séries • 20 reps", "peso": "40", "tec": "Pico de Contração", "obs": "Tente segurar 1 segundo na abertura máxima" },
-      {"nome": "Extensão de Quadril 45°", "execucao": "3 séries • 15 reps", "peso": "Sem Peso", "tec": "Isometria no topo", "obs": "Lombar neutra e estável. Foco total no glúteo." },
-      {"nome": "CARDIO - Esteira", "execucao": "20 min", "peso": " ", "tec": "Leve (recuperação)", "obs": " "}
+      {"nome": "Agachamento Sumô (Halter)", "execucao": "4 séries • 10/15 reps", "peso": "-", "tec": "PC", "obs": "Carga pesada, foco em explosão na subida. | Pico de contração de 2s no topo (espremendo o glúteo)." },
+      {"nome": "Supino Inclinado (Halteres)", "execucao": "4 séries • 8/12 reps", "peso": "-", "tec": "RP/BS", "obs": "Rest-Pause na última série. | Bi-set com Polichinelo (30s) para manter o cardio alto." },
+      {"nome": "Levantamento Terra (Deadlift)", "execucao": "3 séries • 8 reps", "peso": "30", "tec": " ", "obs": " Sim | Não " },
+      {"nome": "Remada Cavalinho ou Curvada", "execucao": "3 séries • 8/15 reps", "peso": "-", "tec": "DS", "obs": " __ | Drop-set na última série (reduz o peso e faz até falhar)." },
+      {"nome": "Desenvolvimento Arnold", "execucao": "3 séries • 10/12 reps", "peso": "5/7", "tec": " ", "obs": " " },
+      {"nome": "Flexão de Braços (Push-ups)", "execucao": "3 séries • até a falha", "peso": " ", "tec": " ", "obs": " "},
+      {"nome": "Prancha + lateral", "execucao": "3 séries • 1 min", "peso": " ", "tec": " ", "obs": " "}
     ]
   },
   "treino_d": {
-    "titulo": "Superior - Puxar",
-    "subtitulo": "Costas e Bíceps",
+    "titulo": "Superior",
+    "subtitulo": "++Core",
     "exercicios": [
-      {"nome": "Puxada Alta Triângulo", "execucao": "3 séries • 10 reps", "peso": "26kg", "tec": "Recuperação", "obs": "Foco apenas em sentir o músculo das costas trabalhar" },
-      {"nome": "Remada Articulada", "execucao": "2 séries • 12 reps", "peso": "15kg", "tec": "Recuperação", "obs": " ." },
-      {"nome": "Rosca Martelo", "execucao": "2 séries • 10 reps", "peso": "2 / 3", "tec": "Recuperação", "obs": "Apenas para movimentar a articulação" },
-      {"nome": "Face Pulls", "execucao": "2 séries • 15 reps", "peso": "5", "tec": "Recuperação", "obs": "Melhora da postura e mobilidade de ombro." },
-      {"nome": "CARDIO - Bicicleta Horizontal", "execucao": "15 min", "peso": " ", "tec": " ", "obs": " " }
+      {"nome": "Puxada Alta", "execucao": "3 séries • 12 reps", "peso": "26kg", "tec": "PC", "obs": "Segurar a barra no peito por 2s antes de subir." },
+      {"nome": "Supino Reto", "execucao": "3 séries • 12 reps", "peso": "6/6kg", "tec": " ", "obs": " ." },
+      {"nome": "Remada Sentada (Triângulo)", "execucao": "3 séries • 12 reps", "peso": "12.5", "tec": "RP", "obs": "Na última série: Faz 12, descansa 15s, faz mais 5." },
+      {"nome": "Elevação Lateral (Ombros)", "execucao": "3 séries • 15 reps", "peso": "4", "tec": "DS", "obs": "Na última série, baixa o peso e faz mais 10 reps." },
+      {"nome": "Bíceps com halter + Tríceps Corda", "execucao": "3 séries • 15/15 reps", "peso": " ", "tec": " ", "obs": " " },
+      {"nome": "Abdominal Remador", "execucao": "3 séries • 20 reps", "peso": " ", "tec": " ", "obs": " " }
     ]
   },
   "treino_e": {
-    "titulo": "Corpo Inteiro",
-    "subtitulo": "Esvaziamento",
+    "titulo": "Inferioes",
+    "subtitulo": "Força e Potência",
     "exercicios": [
-      {"nome": "Agachamento Búlgaro", "execucao": "3 séries • 10 reps", "peso": "8", "tec": "Unilateral", "obs": "Fazer um lado e depois o outro sem intervalo." },
-      {"nome": "Cadeira Extensora", "execucao": "3 séries • 15 reps", "peso": "25", "tec": "Cadência 3-0-3", "obs": "Foco no controle; sem impacto." },
-      {"nome": "Puxada Supinada", "execucao": "3 séries • 12 reps", "peso": "26", "tec": "Série Simples", "obs": "Foco no latíssimo do dorso." },
-      {"nome": "Supino Inclinado (Halteres)", "execucao": "3 séries • 12 reps", "peso": "7", "tec": "Série Simples", "obs": "Banco a 45°. Máxima amplitude." },
-      {"nome": "Desenvolvimento Arnold", "execucao": "3 séries • 10 reps", "peso": "6", "tec": "Tempo de Tensão", "obs": "Ajustar banco para 75-80°. Cuidado com a lombar no giro." },
-      {"nome": "Prancha Lateral", "execucao": "3 séries • 45 seg", "peso": "Corpo", "tec": "Isometria", "obs": "Estabilização do core." },
-      {"nome": "CARDIO - Esteira", "execucao": "20 min", "peso": " ", "tec": "Inclinação 5 vel 5", "obs": " " }
+      {"nome": "Agachamento Livre (Barra)", "execucao": "4 séries • 8/12 reps", "peso": "-", "tec": " ", "obs": " " },
+      {"nome": "Leg Press 45°", "execucao": "4 séries • 10/15 reps", "peso": "-", "tec": " ", "obs": "Pés mais baixos na plataforma (foco quadríceps). | Pés altos (foco glúteo/posterior)." },
+      {"nome": "Cadeira Extensora", "execucao": "3 séries • 10/12 reps", "peso": "-", "tec": "DS", "obs": "Carga máxima. | Drop-set na última série." },
+      {"nome": "Cadeira Flexora", "execucao": "3 séries • 10/12 reps", "peso": "-", "tec": "-", "obs": "Controlar a descida." },
+      {"nome": "Cadeira Adutora", "execucao": "3 séries • 15 reps", "peso": "Ajustar", "tec": " ", "obs": " "},
+      {"nome": "Elevação de Pernas (L-sit)", "execucao": "3 séries • 15 reps", "peso": "Corpo", "tec": "Isometria", "obs": "Estabilização do core." }
     ]
   }
 };
