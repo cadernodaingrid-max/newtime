@@ -1,6 +1,6 @@
 const dadosTreinos = {
   "treino_a": {
-    "titulo": "Membros Superioes",
+    "titulo": "Membros Superiores",
     "subtitulo": "Conjugado",
     "exercicios": [
       {"nome": "Supino Reto", "execucao": "4 séries • 8/12 reps", "peso": "12.5/20", "tec": "PC/CC", "obs": "Pirâmide Crescente (aumente o peso a cada série). | Cadência controlada (3 seg. na descida)." },
@@ -12,7 +12,7 @@ const dadosTreinos = {
     ]
   },
   "treino_b": {
-    "titulo": "Membros Inferioes",
+    "titulo": "Membros Inferiores",
     "subtitulo": "++Core",
     "exercicios": [
       {"nome": "Agachamento no Smith", "execucao": "4 séries • 12 reps", "peso": "Ajustar", "tec": "Progressiva", "obs": "Começa com pouco peso para aquecer as articulações e aumenta gradualmente."},
@@ -38,7 +38,7 @@ const dadosTreinos = {
     ]
   },
   "treino_d": {
-    "titulo": "Superior",
+    "titulo": "Superiores",
     "subtitulo": "++Core",
     "exercicios": [
       {"nome": "Puxada Alta", "execucao": "3 séries • 12 reps", "peso": "26kg", "tec": "PC", "obs": "Segurar a barra no peito por 2s antes de subir." },
@@ -50,7 +50,7 @@ const dadosTreinos = {
     ]
   },
   "treino_e": {
-    "titulo": "Inferioes",
+    "titulo": "Inferiores",
     "subtitulo": "Força e Potência",
     "exercicios": [
       {"nome": "Agachamento Livre (Barra)", "execucao": "4 séries • 8/12 reps", "peso": "-", "tec": " ", "obs": " " },
