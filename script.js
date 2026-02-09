@@ -16,10 +16,9 @@ const dadosTreinos = {
     "subtitulo": "++Core",
     "exercicios": [
       {"nome": "Agachamento no Smith", "execucao": "4 séries • 12 reps", "peso": "Ajustar", "tec": "Progressiva", "obs": "Começa com pouco peso para aquecer as articulações e aumenta gradualmente."},
-      {"nome": "Leg Press 45°", "execucao": "3 séries • 12 reps", "peso": "Ajustar", "tec": "Drop-set", "obs": "Na última série: Faz 12 repetições, reduz o peso em 30% e faz mais 10 sem descanso."},
+      {"nome": "Leg Press", "execucao": "3 séries • 15 reps", "peso": "Ajustar", "tec": "Drop-set", "obs": "Na última série: Faz 12 repetições, reduz o peso em 30% e faz mais 10 sem descanso."},
       {"nome": "Cadeira Extensora", "execucao": "3 séries • 15 reps", "peso": "Ajustar", "tec": "Isometria", "obs": "Segurar 2 segundos no topo (contração máxima) em cada repetição para fortalecer o joelho"},
       {"nome": "Cadeira Flexora", "execucao": "3 séries • 12 reps", "peso": "Ajustar", "tec": "Cadência 3-3", "obs": "3 segundos para subir, 3 segundos para descer"},
-      {"nome": "Leg Press Horizontal", "execucao": "3 séries • 15 reps", "peso": "Ajustar", "tec": "PC", "obs": "Pico de contração (segura 2s com a perna estendida – sem travar o joelho)."},
       {"nome": "Stiff (Halteres ou Barra)", "execucao": "3 séries • 12 reps", "peso": "Ajustar", "tec": "PC", "obs": "No ponto mais alto (quase em pé, mas com uma leve inclinação ainda), espremer o glúteo com força por 2 segundos antes de descer novamente"},
       {"nome": "Elevação de Joelhos (L-sit)", "execucao": "3 séries • 15 reps", "peso": "Peso do corpo", "tec": " ", "obs": " "}
     ]
@@ -54,7 +53,7 @@ const dadosTreinos = {
     "subtitulo": "Força e Potência",
     "exercicios": [
       {"nome": "Agachamento Livre (Barra)", "execucao": "4 séries • 8/12 reps", "peso": "-", "tec": " ", "obs": " " },
-      {"nome": "Leg Press 45°", "execucao": "4 séries • 10/15 reps", "peso": "-", "tec": " ", "obs": "Pés mais baixos na plataforma (foco quadríceps). | Pés altos (foco glúteo/posterior)." },
+      {"nome": "Leg Press", "execucao": "4 séries • 10/15 reps", "peso": "-", "tec": " ", "obs": "Pés mais baixos na plataforma (foco quadríceps). | Pés altos (foco glúteo/posterior)." },
       {"nome": "Cadeira Extensora", "execucao": "3 séries • 10/12 reps", "peso": "-", "tec": "DS", "obs": "Carga máxima. | Drop-set na última série." },
       {"nome": "Cadeira Flexora", "execucao": "3 séries • 10/12 reps", "peso": "-", "tec": "-", "obs": "Controlar a descida." },
       {"nome": "Cadeira Adutora", "execucao": "3 séries • 15 reps", "peso": "Ajustar", "tec": " ", "obs": " "},
