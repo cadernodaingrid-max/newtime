@@ -16,11 +16,11 @@ const treinos = {
         "tempo": "45-55 min",
         "aquecimento": "Mobilidade de ombros + Perdigueiro (3 x 12 reps alternadas).",
         "exercicios": [
-            "Supino Inclinado (Halteres): 3 x 10-12.",
+            "Supino Inclinado (Halteres): 3 x 10-12. (Carga: 7kg | 10kg)",
             "Push Press (Halteres): 3 x 10.",
-            "Dips (Gravitron ou Banco): 3 x 10-12.",
-            "Elevação Lateral: 3 x 12.",
-            "Core Rotacional: Cortador com elástico ou cabo (3 x 12 cada lado)."
+            "Dips (Gravitron ou Banco): 3 x 10-12. (Carga: -47kg | -61kg)",
+            "Elevação Lateral: 3 x 12. (Carga: 3kg)",
+            "Core Rotacional - Cortador com elástico ou cabo: 3 x 12 cada lado. (Carga: 3.kg | 6.kg)"
         ]
     },
     "3": {
