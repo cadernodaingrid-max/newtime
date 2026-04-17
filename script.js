@@ -26,13 +26,13 @@ const treinos = {
     "3": {
         "titulo": "Inferior (Dominância de Joelho e Quadril)",
         "tempo": "45-55 min",
-        "aquecimento": "Elevação de Quadris (Ponte) (3 x 15).",
+        "aquecimento": "Elevação de Quadris: 3 x 15. (subir 2s, hold 2s, descer 2s)",
         "exercicios": [
-            "Agachamento Livre (Barra): 3 x 10-12.",
-            "Leg Press 45°: 3 x 12.",
-            "Avanço Unilateral (Halteres): 3 x 10 cada perna.",
-            "Extensão de Tornozelo (Panturrilha): 4 x 15.",
-            "Abdominal Infra (Solo ou Suspenso): 3 x 15."
+            "Agachamento Livre (Barra): 3 x 10-12. (descer 3s, subir explosivo)",
+            "Leg Press 45°: 3 x 12. (descer 2s, subir 2s)",
+            "Avanço Unilateral Halteres: 3 x 10 cada perna. (descer 2s, hold 1s, subir 1s)",
+            "Panturrilha em pé: 4 x 15. (subir 1s, hold 2s, descer 2s)",
+            "Abdominal Infra (Solo ou Suspenso): 3 x 15. (subir 2s, descer 4s)"
         ]
     },
     "4": {
