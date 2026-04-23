@@ -42,11 +42,12 @@ const treinos = {
         "exercicios": [
             "Ativação do Core: Prancha Ventral (3 séries de 30s a 45s).",
             "Estabilidade: Perdigueiro (3 séries de 12 reps alternadas).",
+            "Superman no Solo: 3 séries de 15 reps.",
             "Step-up no Banco (com halteres): 3 séries de 10 reps por perna.",
-            "Y na Polia Baixa (ou I e Y no solo): 3 séries de 12 reps.",
-            "Cortador com Cabo (Polia): 3 séries de 12 reps (cada lado).",
             "Burpees (Tradicional): 3 séries de 10 a 12 reps.",
-            "Superman no Solo: 3 séries de 15 reps."
+            "Cortador com Cabo (Polia): 3 séries de 12 reps (cada lado).",
+            "Face Pull: 3 séries de 12 reps.",
+            "Elevação Lateral: 3 séries de 12 reps"
         ]
     },
     "5": {
@@ -57,7 +58,7 @@ const treinos = {
             "Bi-set 1: Agachamento Sumô + Supino Reto (Halteres): 3 x 10-12.",
             "Bi-set 2: Remada Sentada + Stiff: 3 x 10-12.",
             "Bi-set 3: Avanço + Elevação Lateral: 3 x 12.",
-            "Finalização: Farmer's Walk (Caminhada do Fazendeiro): 3 voltas de 20 metros."
+            "Finalização: Farmer's Walk Hold: 3 séries de 30s cada lado."
         ]
     }
 };
