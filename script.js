@@ -58,7 +58,7 @@ const treinos = {
             "Bi-set 1: Agachamento Sumô + Supino Reto (Halteres): 3 x 10-12.",
             "Bi-set 2: Remada Sentada + Stiff: 3 x 10-12.",
             "Bi-set 3: Avanço + Elevação Lateral: 3 x 12.",
-            "Finalização: Farmer's Walk Hold: 3 séries de 30s cada lado."
+            "Finalização: Abdominal pêndulo: 3x20."
         ]
     }
 };
