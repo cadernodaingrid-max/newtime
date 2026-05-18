@@ -23,7 +23,7 @@ const treinos = {
             "Core Rotacional - Cortador com elástico ou cabo: 3 x 12 cada lado. (Carga: 3.kg | 6.kg)"
         ]
     },
-    "3": {
+    "5": {
         "titulo": "Inferior (Dominância de Joelho e Quadril)",
         "tempo": "45-55 min",
         "aquecimento": "Elevação de Quadris: 3 x 15. (subir 2s, hold 2s, descer 2s)",
@@ -50,7 +50,7 @@ const treinos = {
             "Elevação Lateral: 3 séries de 12 reps"
         ]
     },
-    "5": {
+    "3": {
         "titulo": "Bi-sets Metabólico (Fullbody)",
         "tempo": "35-45 min",
         "aquecimento": "Caminhada na esteira.",
