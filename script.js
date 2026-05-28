@@ -59,7 +59,7 @@ const treinos = {
             "Core: Remada Unilateral em Pé na Polia (Foco Estabilização): 3 x 12 cada lado. (8KG)"
         ]
     }
-};
+}};
 
 const urlParams = new URLSearchParams(window.location.search);
 const opcaoSelecionada = urlParams.get('opcao');
