@@ -1,62 +1,62 @@
 const treinos = {
-
     "1": {
         "titulo": "Segunda-feira: Puxada (Cadeia Posterior e Postura)",
-        "tempo": "45-55 min",
-        "aquecimento": "5 min de esteira leve.",
+        "tempo": "50-60 min",
+        "aquecimento": "5 min esteira leve.",
         "exercicios": [
-            "Puxada Frontal na Polia Alta: 3 x 8-12. (33KG)",
-            "Remada Sentada no Cabo (Pegada Triângulo): 3 x 8-12. (13.5KG)",
-            "Stiff com Barra: 3 x 8-12. (20KG)",
-            "Remada Alta com Barra: 3 x 10. (17.5KG)",
-            "Core: Pallof Press na Polia (Antirrotação): 3 x 12 cada lado. (8KG)"
+            "Bi-set 1: Puxada Alta Aberta + Puxada Alta Fechada: 3 x 8-12.",
+            "Bi-set 2: Puxada Alta com Triângulo + Puxada Alta Regular: 3 x 8-12.",
+            "Stiff com Barra: 3 x 10-12.",
+            "Remada Sentada (Cabo): 3 x 12.",
+            "Bi-set 3 (Braços): Rosca Direta + Rosca Inversa: 3 x 12.",
+            "Fortalecimento de Antebraço (Rosca de Punho na Máquina ou Halter): 3 x 15.",
+            "Core: Elevação de Joelhos na Cadeira Capitão (Paralela): 3 x 15."
         ]
     },
     "2": {
-        "titulo": "Terça-feira: Perna (Dominância de Quadríceps)",
-        "tempo": "45-55 min",
-        "aquecimento": "5 min de esteira leve.",
+        "titulo": "Terça-feira: Pernas (Dominância de Quadríceps)",
+        "tempo": "40-50 min",
+        "aquecimento": "5 min esteira leve.",
         "exercicios": [
-            "Agachamento Livre com Barra: 3-4 x 8-12. (25KG)",
-            "Leg Press 45°: 3 x 12. (40KG)",
-            "Step-up no Banco (Halteres): 3 x 10 cada perna. (5KG)",
-            "Extensão de Tornozelo em Pé na Máquina (Panturrilha): 4 x 15.",
-            "Core: Abdominal 'Crunch': 3 x 15."
+            "Bi-set 1: Agachamento no Smith + Step-up no Banco (Halteres): 3 x 10-12.",
+            "Leg Press Máquina (Horizontal): 3 x 12.",
+            "Bi-set 2: Cadeira Extensora + Extensão de Tornozelo em pé: 3 x 12-15.",
+            "Core: Rotação de Tronco com Anilha (Em pé): 3 x 12 cada lado."
         ]
     },
     "3": {
-        "titulo": "Quarta-feira: Empurrar (Peitoral, Ombros e Tríceps)",
+        "titulo": "Quarta-feira: Empurrar (Peitoral e Ombros)",
         "tempo": "45-55 min",
-        "aquecimento": "5 min de esteira leve.",
+        "aquecimento": "5 min esteira leve.",
         "exercicios": [
-            "Supino Reto com Barra: 3 x 8-12. (25KG)",
-            "Push Press com Halteres: 3 x 10. (8KG)",
-            "Mergulho (Dips) no Gravitron ou Banco: 3 x 10-12.",
-            "Elevação Lateral com Halter: 3 x 12. (4KG)",
-            "Core: Cortador Horizontal no Cabo (Padrão de Rotação): 3 x 12 cada lado. (6KG)"
+            "Bi-set 1: Supino Reto (Barra) + Crucifixo (Halteres): 3 x 8-12.",
+            "Bi-set 2: Desenvolvimento Arnold (Halteres) + Elevação Frontal (Halteres): 3 x 10-12.",
+            "Mergulho (Dips) no Gravitron: 3 x 10-12.",
+            "Elevação Lateral: 3 x 12.",
+            "Core: Extensão Lombar na Máquina: 3 x 12."
         ]
     },
     "4": {
-        "titulo": "Quinta-feira: Bi-set Metabólico",
+        "titulo": "Quinta-feira: Metabólico (Bi-sets Integrados)",
         "tempo": "35-45 min",
-        "aquecimento": "5 min de esteira leve.",
+        "aquecimento": "5 min esteira leve.",
         "exercicios": [
-            "Bi-set 1: Agachamento Sumô (Halter) + Supino com Halteres: 3 x 10-12. (12KG | 9KG)",
-            "Bi-set 2: Remada no Cabo + Stiff com Halteres: 3 x 10-12. (13KG | 8KG)",
-            "Bi-set 3: Avanço Lateral (Halteres) + Elevação Lateral: 3 x 12. (4KG | 3KG)",
-            "Core: Extensão de Lombar na Máquina: 3 x 12."
+            "Bi-set 1: Agachamento Sumô (Halter) + Glúteo 'Chute atrás' na Máquina: 3 x 12.",
+            "Bi-set 2: Remada no Cabo + Stiff com Halteres: 3 x 10-12.",
+            "Bi-set 3: Avanço Lateral (Halteres) + Elevação Lateral: 3 x 12.",
+            "Core: Prancha Ventral: 3 x 45 seg."
         ]
     },
     "5": {
-        "titulo": "Sexta-feira: Perna (Cadeia Posterior e Potência)",
-        "tempo": "55-65 min",
-        "aquecimento": "5 min de esteira leve.",
+        "titulo": "Sexta-feira: Pernas (Posterior e Potência)",
+        "tempo": "50-60 min",
+        "aquecimento": "5 min esteira leve.",
         "exercicios": [
-            "Levantamento Terra: 3 x 8-10. (25KG)",
-            "Avanço (Lunge) com Barra nas Costas: 3 x 10 cada perna. (10KG)",
-            "Cadeira Flexora: 3 x 12. (27KG)",
-            "Agachamento com Barra à Frente (Front Squat): 3 x 10. (15KG)",
-            "Core: Remada Unilateral em Pé na Polia (Foco Estabilização): 3 x 12 cada lado. (8KG)"
+            "Bi-set 1: Levantamento Terra (Barra): 3 x 8-10 + Cadeira Flexora: 3 x 12.",
+            "Leg Press Máquina Horizontal: 3 x 12.",
+            "Agachamento Unilateral no Smith: 3 x 10 cada perna.",
+            "Agachamento com Barra à Frente: 3 x 10.",
+            "Core: Abdominal na Máquina (Crunches): 3 x 15."
         ]
     }
 };
