@@ -31,8 +31,9 @@ const treinos = {
         "exercicios": [
             "Bi-set 1: Supino Reto (Barra) + Crucifixo (Halteres): 3 x 8-12.",
             "Bi-set 2: Desenvolvimento Arnold (Halteres) + Elevação Frontal (Halteres): 3 x 10-12.",
-            "Mergulho (Dips) no Gravitron: 3 x 10-12.",
             "Elevação Lateral: 3 x 12.",
+            "Mergulho (Dips) no Gravitron: 3 x 10-12.",
+            "Tríceps na Polia (Barra V): 3x12",
             "Core: Extensão Lombar na Máquina: 3 x 12."
         ]
     },
