@@ -5,12 +5,12 @@ const treinos = {
         "aquecimento": "5 min esteira leve.",
         "exercicios": [
             "Bi-set 1: Puxada Alta Aberta + Puxada Alta Fechada: 3 x 8-12.",
-            "Bi-set 2: Puxada Alta com Triângulo + Puxada Alta Regular: 3 x 8-12.",
+            "Remada Cavalinho: 3x10.",
             "Stiff com Barra: 3 x 10-12.",
             "Remada Sentada (Cabo): 3 x 12.",
-            "Bi-set 3 (Braços): Rosca Direta + Rosca Inversa: 3 x 12.",
-            "Fortalecimento de Antebraço (Rosca de Punho na Máquina ou Halter): 3 x 15.",
-            "Core: Elevação de Joelhos na Cadeira Capitão (Paralela): 3 x 15."
+            "Bi-set 2 (Braços): Rosca Direta + Rosca Inversa: 3 x 12.",
+            "Fortalecimento de Antebraço (Rosca de Punho): 3 x 15.",
+            "Core: Elevação de Joelhos na Cadeira Capitão: 3 x 15."
         ]
     },
     "2": {
@@ -43,8 +43,8 @@ const treinos = {
         "aquecimento": "5 min esteira leve.",
         "exercicios": [
             "Bi-set 1: Agachamento Sumô (Halter) + Glúteo 'Chute atrás' na Máquina: 3 x 12.",
-            "Bi-set 2: Remada no Cabo + Stiff com Halteres: 3 x 10-12.",
-            "Bi-set 3: Avanço Lateral (Halteres) + Elevação Lateral: 3 x 12.",
+            "Bi-set 2: Remada no Cabo + Desenvolvimento em pé: 3 x 10-12.",
+            "Bi-set 3: Cruxifixo Invertido + Elevação Lateral: 3 x 12.",
             "Core: Prancha Ventral: 3 x 45 seg."
         ]
     },
@@ -56,7 +56,6 @@ const treinos = {
             "Bi-set 1: Levantamento Terra (Barra): 3 x 8-10 + Cadeira Flexora: 3 x 12.",
             "Leg Press Máquina Horizontal: 3 x 12.",
             "Agachamento Unilateral no Smith: 3 x 10 cada perna.",
-            "Agachamento com Barra à Frente: 3 x 10.",
             "Core: Abdominal na Máquina (Crunches): 3 x 15."
         ]
     }
