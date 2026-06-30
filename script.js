@@ -2,59 +2,64 @@ const treinos = {
     "1": {
         "titulo": "Segunda-feira: Puxada (Cadeia Posterior e Postura)",
         "tempo": "50-60 min",
-        "aquecimento": "5 min esteira leve.",
+        "aquecimento": "5 min esteira leve + mobilidade de ombros e coluna.",
         "exercicios": [
-            "Bi-set 1: Puxada Alta Aberta + Puxada Alta Fechada: 3 x 8-12.",
-            "Remada Cavalinho: 3x10.",
-            "Stiff com Barra: 3 x 10-12.",
+            "Puxada Alta Aberta: 3 x 8-10 (foco em carga).",
+            "Puxada Alta Fechada: 3 x 10-12.",
+            "Remada Cavalinho: 3 x 10.",
+            "Stiff com Barra: 3 x 10-12 (foco na descida controlada).",
             "Remada Sentada (Cabo): 3 x 12.",
-            "Bi-set 2 (Braços): Rosca Direta + Rosca Inversa: 3 x 12.",
+            "Bi-set (Braços): Rosca Direta + Rosca Inversa: 3 x 12.",
             "Fortalecimento de Antebraço (Rosca de Punho): 3 x 15.",
             "Core: Elevação de Joelhos na Cadeira Capitão: 3 x 15."
         ]
     },
     "2": {
         "titulo": "Terça-feira: Pernas (Dominância de Quadríceps)",
-        "tempo": "40-50 min",
-        "aquecimento": "5 min esteira leve.",
+        "tempo": "45-55 min",
+        "aquecimento": "5 min esteira leve + mobilidade de quadril e tornozelo.",
         "exercicios": [
-            "Bi-set 1: Agachamento no Smith + Step-up no Banco (Halteres): 3 x 10-12.",
+            "Agachamento no Smith: 3 x 8-10 (série simples com descanso total).",
+            "Step-up no Banco (Halteres): 3 x 10-12 cada perna.",
             "Leg Press Máquina (Horizontal): 3 x 12.",
-            "Bi-set 2: Cadeira Extensora + Extensão de Tornozelo em pé: 3 x 12-15.",
+            "Bi-set: Cadeira Extensora + Extensão de Tornozelo em pé: 3 x 12-15.",
             "Core: Rotação de Tronco com Anilha (Em pé): 3 x 12 cada lado."
         ]
     },
     "3": {
         "titulo": "Quarta-feira: Empurrar (Peitoral e Ombros)",
         "tempo": "45-55 min",
-        "aquecimento": "5 min esteira leve.",
+        "aquecimento": "5 min esteira leve + mobilidade de ombros e escápulas.",
         "exercicios": [
-            "Bi-set 1: Supino Reto (Barra) + Crucifixo (Halteres): 3 x 8-12.",
-            "Bi-set 2: Desenvolvimento Arnold (Halteres) + Elevação Frontal (Halteres): 3 x 10-12.",
-            "Elevação Lateral: 3 x 12.",
+            "Supino Reto (Barra): 3 x 8-10 (série simples com descanso total).",
+            "Crucifixo (Halteres): 3 x 12.",
+            "Desenvolvimento Arnold (Halteres): 3 x 10.",
+            "Bi-set (Ombros): Elevação Lateral + Elevação Frontal (Halteres): 3 x 12.",
             "Mergulho (Dips) no Gravitron: 3 x 10-12.",
-            "Tríceps na Polia (Barra V): 3x12",
+            "Tríceps na Polia (Barra V): 3 x 12.",
             "Core: Extensão Lombar na Máquina: 3 x 12."
         ]
     },
     "4": {
-        "titulo": "Quinta-feira: Metabólico (Bi-sets Integrados)",
+        "titulo": "Quinta-feira: Cardio, Regenerativo e Core (Sem pernas)",
         "tempo": "35-45 min",
-        "aquecimento": "5 min esteira leve.",
+        "aquecimento": "5 min esteira leve + mobilidade geral.",
         "exercicios": [
-            "Bi-set 1: Agachamento Sumô (Halter) + Glúteo 'Chute atrás' na Máquina: 3 x 12.",
-            "Bi-set 2: Remada no Cabo + Desenvolvimento em pé: 3 x 10-12.",
-            "Bi-set 3: Cruxifixo Invertido + Elevação Lateral: 3 x 12.",
-            "Core: Prancha Ventral: 3 x 45 seg."
+            "Remada no Cabo: 3 x 12.",
+            "Desenvolvimento em pé (Halteres): 3 x 10-12.",
+            "Bi-set: Crucifixo Invertido + Elevação Lateral: 3 x 12.",
+            "Core: Prancha Ventral: 3 x 45 seg.",
+            "Cardio: 15-20 min de caminhada acelerada ou elíptico (ritmo moderado)."
         ]
     },
     "5": {
         "titulo": "Sexta-feira: Pernas (Posterior e Potência)",
         "tempo": "50-60 min",
-        "aquecimento": "5 min esteira leve.",
+        "aquecimento": "5 min esteira leve + mobilidade de quadril e posterior.",
         "exercicios": [
-            "Bi-set 1: Levantamento Terra (Barra): 3 x 8-10 + Cadeira Flexora: 3 x 12.",
-            "Leg Press Máquina Horizontal: 3 x 12.",
+            "Levantamento Terra (Barra): 3 x 8 (série simples, foco total em força e postura).",
+            "Cadeira Flexora: 3 x 10-12.",
+            "Leg Press Máquina Horizontal: 3 x 12 (pés posicionados mais altos na plataforma).",
             "Agachamento Unilateral no Smith: 3 x 10 cada perna.",
             "Core: Abdominal na Máquina (Crunches): 3 x 15."
         ]
