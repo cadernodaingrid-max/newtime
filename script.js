@@ -4,13 +4,12 @@ const treinos = {
         "tempo": "50-60 min",
         "aquecimento": "5 min esteira leve + mobilidade de ombros e coluna.",
         "exercicios": [
-            "Puxada Alta Aberta: 3 x 8-10 (foco em carga).",
-            "Puxada Alta Fechada: 3 x 10-12.",
+            "Puxada Alta Aberta: 3 x 6-8 (foco em carga).",
+            "Puxada Alta Unilateral: 3 x 10-12.",
             "Remada Cavalinho: 3 x 10.",
-            "Stiff com Barra: 3 x 10-12 (foco na descida controlada).",
-            "Remada Sentada (Cabo): 3 x 12.",
-            "Bi-set (Braços): Rosca Direta + Rosca Inversa: 3 x 12.",
-            "Fortalecimento de Antebraço (Rosca de Punho): 3 x 15.",
+            "Remada Sentada com barra pronada - palma para baixo (aberta): 3 x 12.",
+            "Rosca Direta barra W: 3 x 12.",
+            "Bi-set (Braços): Rosca Inversa + Rosca de Punho: 3 x 15.",
             "Core: Elevação de Joelhos na Cadeira Capitão: 3 x 15."
         ]
     },
@@ -19,11 +18,11 @@ const treinos = {
         "tempo": "45-55 min",
         "aquecimento": "5 min esteira leve + mobilidade de quadril e tornozelo.",
         "exercicios": [
-            "Agachamento no Smith: 3 x 8-10 (série simples com descanso total).",
-            "Step-up no Banco (Halteres): 3 x 10-12 cada perna.",
-            "Leg Press Máquina (Horizontal): 3 x 12.",
+            "Agachamento no Smith: 3 x 8-10.",
+            "Agachamento Búlgaro (ou Afundo unilateral com halteres): 3 x 10-12 cada perna.",
+            "Cadeira Flexora (ou Mesa Flexora): 3 x 12.",
             "Bi-set: Cadeira Extensora + Extensão de Tornozelo em pé: 3 x 12-15.",
-            "Core: Rotação de Tronco com Anilha (Em pé): 3 x 12 cada lado."
+            "Core: Rotação de Tronco no Cabo (Polia): 3 x 12 cada lado."
         ]
     },
     "3": {
@@ -32,11 +31,11 @@ const treinos = {
         "aquecimento": "5 min esteira leve + mobilidade de ombros e escápulas.",
         "exercicios": [
             "Supino Reto (Barra): 3 x 8-10 (série simples com descanso total).",
-            "Crucifixo (Halteres): 3 x 12.",
-            "Desenvolvimento Arnold (Halteres): 3 x 10.",
-            "Bi-set (Ombros): Elevação Lateral + Elevação Frontal (Halteres): 3 x 12.",
             "Mergulho (Dips) no Gravitron: 3 x 10-12.",
-            "Tríceps na Polia (Barra V): 3 x 12.",
+            "Crucifixo: 3 x 12.",
+            "Desenvolvimento: 3 x 10.",
+            "Elevação Lateral: 4 x 12-15.",
+            "Tríceps na Polia: 3 x 12.",
             "Core: Extensão Lombar na Máquina: 3 x 12."
         ]
     },
@@ -46,7 +45,7 @@ const treinos = {
         "aquecimento": "5 min esteira leve + mobilidade geral.",
         "exercicios": [
             "Remada no Cabo: 3 x 12.",
-            "Desenvolvimento em pé (Halteres): 3 x 10-12.",
+            "Desenvolvimento Neutro: 3 x 10-12.",
             "Bi-set: Crucifixo Invertido + Elevação Lateral: 3 x 12.",
             "Core: Prancha Ventral: 3 x 45 seg.",
             "Cardio: 15-20 min de caminhada acelerada ou elíptico (ritmo moderado)."
@@ -57,11 +56,11 @@ const treinos = {
         "tempo": "50-60 min",
         "aquecimento": "5 min esteira leve + mobilidade de quadril e posterior.",
         "exercicios": [
-            "Levantamento Terra (Barra): 3 x 8 (série simples, foco total em força e postura).",
-            "Cadeira Flexora: 3 x 10-12.",
-            "Leg Press Máquina Horizontal: 3 x 12 (pés posicionados mais altos na plataforma).",
+            "Levantamento Terra (Barra): 3 x 5-6.",
             "Agachamento Unilateral no Smith: 3 x 10 cada perna.",
-            "Core: Abdominal na Máquina (Crunches): 3 x 15."
+            "Extensão no Banco Romano: 3 x 12.",
+            "Cadeira Flexora: 3 x 10-12.",
+            "Core: Abdominal Crunches: 3 x 15."
         ]
     }
 };
