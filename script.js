@@ -9,8 +9,9 @@ const treinos = {
             "Puxada Alta Unilateral: 3 x 10-12",
             "Crucifixo Invertido: 3 x 12",
             "Rosca Direta barra W: 3 x 12",
-            "Bi-set (Antebraço): Rosca Inversa + Rosca de Punho: 3 x 15",
-            "Core: Elevação de Joelhos na Cadeira Capitão: 3 x 15"
+            "Rosca Inversa: 3 x 15",
+            "Core: Elevação de Joelhos na Cadeira Capitão: 3 x 15",
+            "Cardio: 20 min de Esteira"
         ]
     },
     "2": {
@@ -31,16 +32,17 @@ const treinos = {
         "aquecimento": "5 min esteira leve + mobilidade de ombros e escápulas.",
         "exercicios": [
             "Supino Reto (Barra): 3 x 8-10",
+            "Desenvolvimento com Halteres: 3 x 10",
             "Mergulho (Dips) no Gravitron: 3 x 10-12",
             "Crucifixo Inclinado com Halteres: 3 x 12",
-            "Desenvolvimento com Halteres: 3 x 10",
             "Elevação Lateral: 4 x 12-15",
             "Tríceps na Polia: 3 x 12",
-            "Core: Extensão Lombar no Banco Romano: 3 x 12"
+            "Core: Extensão Lombar no Banco Romano: 3 x 12",
+            "Cardio: 20 min esteira"
         ]
     },
     "3": {
-        "titulo": "Quarta-feira: Cardio e Core",
+        "titulo": "Quarta-feira: Descanso ativo",
         "tempo": "35-40 min",
         "aquecimento": "Mobilidade geral e alongamentos dinâmicos.",
         "exercicios": [
@@ -53,8 +55,8 @@ const treinos = {
         "aquecimento": "5 min esteira leve + mobilidade de quadril e posterior.",
         "exercicios": [
             "Levantamento Terra (Barra Livre): 3 x 5-6",
-            "Leg Press 45º (Bilateral): 3 x 10-12",
             "Cadeira Flexora: 3 x 10-12",
+            "Leg Press 45º (Bilateral): 3 x 10-12",
             "Panturrilhas Sentado: 4 x 15",
             "Core: Abdominal Crunches: 3 x 15"
         ]
