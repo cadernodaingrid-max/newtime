@@ -6,7 +6,7 @@ const treinos = {
         "exercicios": [
             "Puxada Alta Aberta: 3 x 6-8 (Foco em carga e força)",
             "Remada Cavalinho: 3 x 10",
-            "Puxada Alta Unilateral: 3 x 10-12",
+            "Puxada Alta Neutra (triângulo): 3 x 10-12",
             "Crucifixo Invertido: 3 x 12",
             "Rosca Direta barra W: 3 x 12",
             "Rosca Inversa: 3 x 15",
