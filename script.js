@@ -1,61 +1,69 @@
 const treinos = {
     "1": {
-        "titulo": "Treino A: Membros Inferiores",
+        "titulo": "Treino A: Membros Superiores (Peito, Tríceps e Ombro)",
         "tempo": "50-55 min",
-        "aquecimento": "5 min esteira leve",
+        "aquecimento": "5 min esteira/elíptico leve + mobilidade de ombros",
         "exercicios": [
-            "Cadeira Extensora: 3 x 12-15",
-            "Leg Press: 3 x 10-12",
-            "Squat com halter no peito: 3 x 10",
-            "Panturrilha: 4 x 12-15"
+            "Supino Reto com Halteres: 4 x 8-10",
+            "Supino Inclinado com Halteres: 3 x 10-12",
+            "Desenvolvimento com Halteres (Sentada banco 75°-80°): 3 x 10-12",
+            "Elevação Lateral com Halteres: 4 x 12-15",
+            "Tríceps Corda no Pulley: 3 x 10-12",
+            "Tríceps Francês com Halter: 3 x 12"
         ]
     },
     "2": {
-        "titulo": "Treino B: Membros Superiores",
-        "tempo": "45-55 min",
-        "aquecimento": "5 min esteira leve",
+        "titulo": "Treino B: Membros Inferiores (Quadríceps e Panturrilhas)",
+        "tempo": "50-55 min",
+        "aquecimento": "5 min bike/esteira + mobilidade de quadril",
         "exercicios": [
-            "Supino Reto com Halteres: 3 x 10-12",
-            "AgRemada Baixa no Triângulo: 3 x 10-12",
-            "Desenvolvimento com Halteres (Sentada com banco a 80°/90°): 3 x 12",
-            "Puxada Alta Aberta no Pulley: 3 x 10-12",
-            "Tríceps Corda no Pulley: 3 x 12",
-            "Rosca Direta com Halteres (Sentada: 3 x 12",
-        ]
-    },
-    "4": {
-        "titulo": "Treino C: Membros Inferiores",
-        "tempo": "45-55 min",
-        "aquecimento": "5 min esteira leve",
-        "exercicios": [
-            "Cadeira Flexora: 3 x 12",
-            "Cadeira Abdutora: 3 x 12-15",
-            "Stiff com Halteres: 3 x 10-12",
-            "Glúteo Máquina: 3 x 12-15",
-            "Panturrilha: 3 x 15"
+            "Agachamento Livre / Smith / Goblet: 4 x 8-10",
+            "Leg Press 45°: 4 x 10-12",
+            "Cadeira Extensora: 3 x 12-15 (pico de contração de 1s)",
+            "Cadeira Adutora: 3 x 12-15",
+            "Panturrilha no Leg Press ou Máquina em Pé: 4 x 12-15"
         ]
     },
     "3": {
-        "titulo": "Quarta-feira: Descanso ativo",
-        "tempo": "35-40 min",
+        "titulo": "Treino C: Membros Superiores (Costas, Bíceps e Deltoide Posterior)",
+        "tempo": "50-55 min",
+        "aquecimento": "5 min elíptico/remo leve",
+        "exercicios": [
+            "Puxada Alta Aberta no Pulley: 4 x 8-10",
+            "Remada Baixa no Triângulo: 3 x 10-12",
+            "Remada Unilateral com Halter (Serrote): 3 x 10-12",
+            "Crucifixo Invertido na Máquina ou Halter: 3 x 12-15",
+            "Rosca Direta com Halteres ou Barra W: 3 x 10-12",
+            "Rosca Martelo com Halteres: 3 x 12"
+        ]
+    },
+    "4": {
+        "titulo": "Treino D: Membros Inferiores (Posterior de Coxa e Glúteos)",
+        "tempo": "50-55 min",
         "aquecimento": "5 min esteira leve",
         "exercicios": [
-            "Dia de Caminhada."
+            "Stiff com Halteres ou Barra: 4 x 8-10",
+            "Cadeira Flexora: 4 x 10-12",
+            "Cadeira Abdutora: 3 x 12-15",
+            "Agachamento Búlgaro ou Passada/Afundo: 3 x 10-12 (por perna)",
+            "Panturrilha Sentada na Máquina: 4 x 15"
         ]
     },
     "5": {
-        "titulo": "Treino D: Membros Superiores",
+        "titulo": "Treino E: Membros Superiores (Tônus, Ombros, Braços e Core)",
         "tempo": "50-60 min",
         "aquecimento": "5 min esteira leve",
         "exercicios": [
-            "Supino Inclinado com Halteres: 3 x 10-12",
-            "Remada Unilateral com Halter (Serrote): 3 x 10-12",
-            "Elevação Lateral: 3 x 12-15",
-            "Crucifixo Invertido: 3 x 12",
-            "Core: Prancha Ventral: 3 x 20-30s"
+            "Elevação Lateral na Polia: 4 x 12-15",
+            "Desenvolvimento Unilateral com Halter: 3 x 10-12",
+            "Tríceps Testa na Polia ou Halteres: 3 x 12",
+            "Rosca 45° no Banco Inclinado: 3 x 12",
+            "Abdominal na Polia (Cable Crunch) ou Máquina: 3 x 15",
+            "Cardio Pós-Treino: 20-25 min esteira inclinada ou elíptico"
         ]
     }
 };
+
 
 const urlParams = new URLSearchParams(window.location.search);
 const opcaoSelecionada = urlParams.get('opcao');
