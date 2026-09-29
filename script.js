@@ -2,7 +2,7 @@ const treinos = {
     "1": {
         "titulo": "Treino A: Membros Superiores (Peito, Tríceps e Ombro)",
         "tempo": "50-55 min",
-        "aquecimento": "5 min esteira/elíptico leve + mobilidade de ombros",
+        "aquecimento": "5 min esteira leve",
         "exercicios": [
             "Supino Reto com Halteres: 4 x 8-10",
             "Supino Inclinado com Halteres: 3 x 10-12",
@@ -15,7 +15,7 @@ const treinos = {
     "2": {
         "titulo": "Treino B: Membros Inferiores (Quadríceps e Panturrilhas)",
         "tempo": "50-55 min",
-        "aquecimento": "5 min bike/esteira + mobilidade de quadril",
+        "aquecimento": "5 min esteira leve",
         "exercicios": [
             "Agachamento Livre / Smith / Goblet: 4 x 8-10",
             "Leg Press 45°: 4 x 10-12",
@@ -27,7 +27,7 @@ const treinos = {
     "3": {
         "titulo": "Treino C: Membros Superiores (Costas, Bíceps e Deltoide Posterior)",
         "tempo": "50-55 min",
-        "aquecimento": "5 min elíptico/remo leve",
+        "aquecimento": "5 min esteira leve",
         "exercicios": [
             "Puxada Alta Aberta no Pulley: 4 x 8-10",
             "Remada Baixa no Triângulo: 3 x 10-12",
@@ -58,8 +58,7 @@ const treinos = {
             "Desenvolvimento Unilateral com Halter: 3 x 10-12",
             "Tríceps Testa na Polia ou Halteres: 3 x 12",
             "Rosca 45° no Banco Inclinado: 3 x 12",
-            "Abdominal na Polia (Cable Crunch) ou Máquina: 3 x 15",
-            "Cardio Pós-Treino: 20-25 min esteira inclinada ou elíptico"
+            "Abdominal na Máquina: 3 x 15"
         ]
     }
 };
