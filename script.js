@@ -31,8 +31,8 @@ const treinos = {
         "exercicios": [
             "Puxada Alta Aberta no Pulley: 4 x 8-10",
             "Remada Baixa no Triângulo: 3 x 10-12",
+            "Crucifixo Invertido na Máquina ou Face Pull na Polia: 3 x 12-15",
             "Remada Unilateral com Halter (Serrote): 3 x 10-12",
-            "Crucifixo Invertido na Máquina ou Halter: 3 x 12-15",
             "Rosca Direta com Halteres ou Barra W: 3 x 10-12",
             "Rosca Martelo com Halteres: 3 x 12"
         ]
