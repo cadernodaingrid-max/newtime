@@ -1,4 +1,37 @@
 const treinos = {
+//    "1": {
+//        "titulo": "Treino A: Membros Superiores (Peito, Tríceps e Ombro)",
+//        "tempo": "50-55 min",
+//        "aquecimento": "5 min esteira leve",
+//        "exercicios": [
+//            {
+//                "nome": "Supino Reto com Halteres: 4 x 10-12",
+//                "tecnica": "BI-SET com Flexão de braços + Rest-Pause na 4ª série — faz 10-12 reps, descansa 15s e faz mais 3-4 reps com a mesma carga"
+//            },
+ //           {
+   //             "nome": "Flexão de Braço com Joelhos Apoiados: 4 x 10-12",
+     //           "tecnica": "BI-SET com Supino Reto"
+       //     },
+         //   {
+//                "nome": "Desenvolvimento com Halteres (Sentada banco 75°-80°): 3 x 10-12",
+  //              "tecnica": "Movimento cadenciado (2s subida, 2s descida)"
+    //        },
+      //      {
+        //        "nome": "Elevação Lateral com Halteres: 4 x 12-15",
+          //      "tecnica": "Pico de contração de 1s no topo"
+            //},
+//            {
+  //              "nome": "Tríceps Corda no Pulley: 3 x 10-12",
+    //            "tecnica": "Rest-pause de 10s na última série"
+      //      },
+        //    {
+          //      "nome": "Tríceps Francês com Halter: 3 x 12",
+            //    "tecnica": "Amplitude máxima"
+//            }
+  //      ]
+    //}
+
+        
     "1": {
         "titulo": "Treino A: Membros Superiores (Peito, Tríceps e Ombro)",
         "tempo": "50-55 min",
@@ -72,25 +105,35 @@ const listaContainer = document.getElementById('exercise-list');
 if (opcaoSelecionada && treinos[opcaoSelecionada]) {
     const treino = treinos[opcaoSelecionada];
 
-    
     document.getElementById('workout-title').textContent = treino.titulo;
     document.getElementById('workout-duration').textContent = `⏱ ${treino.tempo}`;
     document.getElementById('warmup-content').textContent = treino.aquecimento;
 
-    
     listaContainer.innerHTML = "";
-    
+
     treino.exercicios.forEach(exer => {
         const li = document.createElement('li');
         
         const checkbox = document.createElement('input');
         checkbox.type = "checkbox";
         
-        const span = document.createElement('span');
-        span.textContent = exer;
+ 
+        const infoDiv = document.createElement('div');
+        infoDiv.className = "exercise-info";
+
+        const spanNome = document.createElement('span');
+        spanNome.textContent = exer.nome;
+        spanNome.className = "exercise-name";
+
+        const spanTecnica = document.createElement('span');
+        spanTecnica.textContent = `💡 Técnica: ${exer.tecnica}`;
+        spanTecnica.className = "exercise-technique";
+
+        infoDiv.appendChild(spanNome);
+        infoDiv.appendChild(spanTecnica);
 
         li.appendChild(checkbox);
-        li.appendChild(span);
+        li.appendChild(infoDiv);
         listaContainer.appendChild(li);
     });
 } else {
