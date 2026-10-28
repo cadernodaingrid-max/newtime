@@ -268,3 +268,23 @@ h1 {
     .menu-grid { grid-template-columns: 1fr; }
     .container { padding: 16px; }
 }
+
+/* ===========================================================================
+5. INSERSÃO DA TÉCNICA EM DESTAQUE
+=========================================================================== */
+.exercise-technique {
+    display: inline-block;
+    margin-top: 4px;
+    padding: 2px 8px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: #0d6efd;
+    background-color: #e7f1ff;
+    border-radius: 4px;
+    border-left: 3px solid #0d6efd;
+}
+
+.exercise-info {
+    display: flex;
+    flex-direction: column;
+}
