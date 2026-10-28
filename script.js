@@ -6,27 +6,27 @@ const treinos = {
         "exercicios": [
             {
                 "nome": "Supino Reto com Halteres: 4 x 10-12",
-                "tecnica": "BI-SET com Flexão de braços + Rest-Pause na 4ª série — faz 10-12 reps, descansa 15s e faz mais 3-4 reps com a mesma carga"
+                "tecnica": "BI-SET #1 + Rest-Pause na 4ª série — faz 10-12 reps, descansa 15s e faz mais 3-4 reps com a mesma carga"
             },
             {
                 "nome": "Flexão de Braço com Joelhos Apoiados: 4 x 10-12",
-                "tecnica": "BI-SET com Supino Reto"
+                "tecnica": "BI-SET #1"
             },
             {
                 "nome": "Supino Inclinado com Halteres: 3 x 10-12",
-                "tecnica": "BI-SET com Elevação Lateral com Halteres"
+                "tecnica": "BI-SET #2"
             },
             {
                 "nome": "Elevação Lateral com Halteres: 4 x 12-15",
-                "tecnica": "BI-SET + Pico de contração de 1s no topo"
+                "tecnica": "BI-SET #2 + Pico de contração de 1s no topo"
             },
             {
                 "nome": "Desenvolvimento com Halteres (Banco 75°–80°): 3 x 10-12",
-                "tecnica": "BI-SET com Tríceps Francês."
+                "tecnica": "BI-SET #3."
             },
             {
                 "nome": "Tríceps Francês com Halter: 3 x 12",
-                "tecnica": "BI-SET com Desenvolvimento + Cadência lenta na descida"
+                "tecnica": "BI-SET #3 + Cadência lenta na descida"
             },
             {
                 "nome": "FINALIZADOR: Tríceps Corda no Pulley: 3 x 12-15",
@@ -40,11 +40,30 @@ const treinos = {
         "tempo": "50-55 min",
         "aquecimento": "5 min esteira leve",
         "exercicios": [
-            "Agachamento Livre / Smith / Goblet: 4 x 8-10",
-            "Leg Press 45°: 4 x 10-12",
-            "Cadeira Extensora: 3 x 12-15 (pico de contração de 1s)",
-            "Cadeira Adutora: 3 x 12-15",
-            "Panturrilha no Leg Press ou Máquina em Pé: 4 x 12-15"
+            {
+                "nome": "Agachamento Smith / Goblet: 4 x 10-12",
+                "tecnica": "BI-SET #1 + Cadência de 2s na descida; na 4ª série: Rest-Pause (descanso de 10-15s e mais 3-5 repetições com mesma carga)"
+            },
+            {
+                "nome": "Agachamento Sumô Livre: 4 x 15",
+                "tecnica": "BI-SET #1"
+            },
+            {
+                "nome": "Leg Press 45° / Horizontal: 4 x 12",
+                "tecnica": "Na 4ª e última série: Drop-set de 20% imediatamente após as 12 reps"
+            },
+            {
+                "nome": "Cadeira Extensora: 3 x 12-15",
+                "tecnica": "BI-SET #2 + Pico de contração de 2s no topo"
+            },
+            {
+                "nome": "Cadeira Adutora: 3 x 15",
+                "tecnica": "BI-SET #2."
+            },
+            {
+                "nome": "Panturrilha no Leg Press: 4 x 15",
+                "tecnica": "Pico de Contração de 2s na extensão máxima"
+            }
         ]
     },
     "3": {
@@ -52,12 +71,30 @@ const treinos = {
         "tempo": "50-55 min",
         "aquecimento": "5 min esteira leve",
         "exercicios": [
-            "Puxada Alta Aberta no Pulley: 4 x 8-10",
-            "Remada Baixa no Triângulo: 3 x 10-12",
-            "Crucifixo Invertido na Máquina ou Face Pull na Polia: 3 x 12-15",
-            "Remada Unilateral com Halter (Serrote): 3 x 10-12",
-            "Rosca Direta com Halteres ou Barra W: 3 x 10-12",
-            "Rosca Martelo com Halteres: 3 x 12"
+            {
+                "nome": "Puxada Alta Aberta no Pulley: 4 x 10-12",
+                "tecnica": "BI-SET #1 + Pico de Contração de 1s e Rest-Pause na 4ª série — faz 10-12 reps, descansa 15s e faz mais 3-4 reps com a mesma carga"
+            },
+            {
+                "nome": "Face Pull: 4 x 12-15",
+                "tecnica": "BI-SET #1 + Pico de Contração de 1s"
+            },
+            {
+                "nome": "Remada Baixa no Triângulo: 3 x 10-12",
+                "tecnica": "BI-SET #2 + Drop-set de 20% na 3ª série"
+            },
+            {
+                "nome": "Remada Unilateral no Pulley: 3 x 10-12",
+                "tecnica": "BI-SET #2"
+            },
+            {
+                "nome": "Rosca Direta com Halteres ou Barra W: 3 x 10-12",
+                "tecnica": "BI-SET #3."
+            },
+            {
+                "nome": "Rosca Martelo com Halteres: 3 x 12-15",
+                "tecnica": "BI-SET #3."
+            }
         ]
     },
     "4": {
@@ -65,11 +102,34 @@ const treinos = {
         "tempo": "50-55 min",
         "aquecimento": "5 min esteira leve",
         "exercicios": [
-            "Stiff com Halteres ou Barra: 4 x 8-10",
-            "Cadeira Flexora: 4 x 10-12",
-            "Cadeira Abdutora: 3 x 12-15",
-            "Agachamento Búlgaro ou Passada/Afundo: 3 x 10-12 (por perna)",
-            "Panturrilha Sentada na Máquina: 4 x 15"
+            {
+                "nome": "Stiff com Halteres ou Barra: 4 x 10-12",
+                "tecnica": "BI-SET #1 + descida lenta"
+            },
+            {
+                "nome": "Coice de Glúteo em Pé: 4 x 15",
+                "tecnica": "BI-SET #1 + Pico de Contração de 1s no topo"
+            },
+            {
+                "nome": "Cadeira Flexora: 4 x 10-12",
+                "tecnica": "BI-SET #2 + Drop-set de 20% na 4ª série"
+            },
+            {
+                "nome": "Cadeira Abdutora: 3 x 15",
+                "tecnica": "BI-SET #2 + Pico de contração de 2s no topo"
+            },
+            {
+                "nome": "Leg Press Unilateral: 3 x 10-12",
+                "tecnica": "BI-SET #3."
+            },
+            {
+                "nome": "Panturrilha em Pé: 3 x 15-20",
+                "tecnica": "BI-SET #3"
+            },
+            {
+                "nome": "PÓS-TREINO: Cardio Intermitente",
+                "tecnica": "20 min de Caminhada na Esteira Inclinada: Alternando inclinação moderada (2 min) e plano (1 min)"
+            }
         ]
     },
     "5": {
@@ -77,14 +137,32 @@ const treinos = {
         "tempo": "50-60 min",
         "aquecimento": "5 min esteira leve",
         "exercicios": [
-            "Elevação Lateral na Polia: 4 x 12-15",
-            "Desenvolvimento Unilateral com Halter: 3 x 10-12",
-            "Tríceps Testa na Polia ou Halteres: 3 x 12",
-            "Rosca 45° no Banco Inclinado: 3 x 12",
-            "Abdominal na Máquina: 3 x 15"
+            {
+                "nome": "Elevação Lateral: 4 x 12-15",
+                "tecnica": "BI-SET #1 + Pico de Contração de 1s"
+            },
+            {
+                "nome": "Desenvolvimento Unilateral com Halter: 3 x 10-12",
+                "tecnica": "BI-SET #1"
+            },
+            {
+                "nome": "Tríceps Testa: 3 x 12-15",
+                "tecnica": "BI-SET #2"
+            },
+            {
+                "nome": "Rosca 45° no Banco Inclinado: 3 x 12",
+                "tecnica": "BI-SET #2"
+            },
+            {
+                "nome": "Crunches: 3 x 15-20",
+                "tecnica": "BI-SET #3."
+            },
+            {
+                "nome": "Abd Infra: 3 x 15",
+                "tecnica": "BI-SET #3."
+            }
         ]
-    }
-};
+    };
 
 
 const urlParams = new URLSearchParams(window.location.search);
