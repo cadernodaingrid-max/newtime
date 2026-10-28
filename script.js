@@ -162,7 +162,7 @@ const treinos = {
                 "tecnica": "BI-SET #3."
             }
         ]
-    };
+    }};
 
 
 const urlParams = new URLSearchParams(window.location.search);
