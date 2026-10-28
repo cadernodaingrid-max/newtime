@@ -1,35 +1,39 @@
 const treinos = {
-//    "1": {
-//        "titulo": "Treino A: Membros Superiores (Peito, Tríceps e Ombro)",
-//        "tempo": "50-55 min",
-//        "aquecimento": "5 min esteira leve",
-//        "exercicios": [
-//            {
-//                "nome": "Supino Reto com Halteres: 4 x 10-12",
-//                "tecnica": "BI-SET com Flexão de braços + Rest-Pause na 4ª série — faz 10-12 reps, descansa 15s e faz mais 3-4 reps com a mesma carga"
-//            },
- //           {
-   //             "nome": "Flexão de Braço com Joelhos Apoiados: 4 x 10-12",
-     //           "tecnica": "BI-SET com Supino Reto"
-       //     },
-         //   {
-//                "nome": "Desenvolvimento com Halteres (Sentada banco 75°-80°): 3 x 10-12",
-  //              "tecnica": "Movimento cadenciado (2s subida, 2s descida)"
-    //        },
-      //      {
-        //        "nome": "Elevação Lateral com Halteres: 4 x 12-15",
-          //      "tecnica": "Pico de contração de 1s no topo"
-            //},
-//            {
-  //              "nome": "Tríceps Corda no Pulley: 3 x 10-12",
-    //            "tecnica": "Rest-pause de 10s na última série"
-      //      },
-        //    {
-          //      "nome": "Tríceps Francês com Halter: 3 x 12",
-            //    "tecnica": "Amplitude máxima"
-//            }
-  //      ]
-    //}
+    "1": {
+        "titulo": "Treino A: Membros Superiores (Peito, Tríceps e Ombro)",
+        "tempo": "50-55 min",
+        "aquecimento": "5 min esteira leve",
+        "exercicios": [
+            {
+                "nome": "Supino Reto com Halteres: 4 x 10-12",
+                "tecnica": "BI-SET com Flexão de braços + Rest-Pause na 4ª série — faz 10-12 reps, descansa 15s e faz mais 3-4 reps com a mesma carga"
+            },
+            {
+                "nome": "Flexão de Braço com Joelhos Apoiados: 4 x 10-12",
+                "tecnica": "BI-SET com Supino Reto"
+            },
+            {
+                "nome": "Supino Inclinado com Halteres: 3 x 10-12",
+                "tecnica": "BI-SET com Elevação Lateral com Halteres"
+            },
+            {
+                "nome": "Elevação Lateral com Halteres: 4 x 12-15",
+                "tecnica": "BI-SET + Pico de contração de 1s no topo"
+            },
+            {
+                "nome": "Desenvolvimento com Halteres (Banco 75°–80°): 3 x 10-12",
+                "tecnica": "BI-SET com Tríceps Francês."
+            },
+            {
+                "nome": "Tríceps Francês com Halter: 3 x 12",
+                "tecnica": "BI-SET com Desenvolvimento + Cadência lenta na descida"
+            },
+            {
+                "nome": "FINALIZADOR: Tríceps Corda no Pulley: 3 x 12-15",
+                "tecnica": "Na 3ª série: Drop-set de 20% até a fadiga"
+            }
+        ]
+    },
 
         
     "1": {
