@@ -35,20 +35,6 @@ const treinos = {
         ]
     },
 
-        
-    "1": {
-        "titulo": "Treino A: Membros Superiores (Peito, Tríceps e Ombro)",
-        "tempo": "50-55 min",
-        "aquecimento": "5 min esteira leve",
-        "exercicios": [
-            "Supino Reto com Halteres: 4 x 8-10",
-            "Supino Inclinado com Halteres: 3 x 10-12",
-            "Desenvolvimento com Halteres (Sentada banco 75°-80°): 3 x 10-12",
-            "Elevação Lateral com Halteres: 4 x 12-15",
-            "Tríceps Corda no Pulley: 3 x 10-12",
-            "Tríceps Francês com Halter: 3 x 12"
-        ]
-    },
     "2": {
         "titulo": "Treino B: Membros Inferiores (Quadríceps e Panturrilhas)",
         "tempo": "50-55 min",
